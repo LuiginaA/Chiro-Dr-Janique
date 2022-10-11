@@ -1,3 +1,7 @@
+# The Chiro Wellness Connection
+
+[View the live site here](https://luiginaa.github.io/Chiro-Dr-Janique/)
+
 # Table of Contents
 
 ## User Experience (UX)
@@ -51,7 +55,7 @@
 
     This is my first attempt at building a website for my daughter’s New Chiropractic Practice. I was inspired by someone very special to me, who introduced me to the coding world of Full Stack Development.  This motivated me to attempt building my very first website and beginning my journey in Full Stack Development.
     Although it was very overwhelming and difficult, as well as very challenging, the sheer pleasure of seeing my site slowly coming together is exhilarating. Every step good or bad was and still is a new learning experience.
-    Using the principles of UX design, this fully responsive website was developed using HTML, CSS, Bootstrap,
+    Using the principles of UX design, this fully responsive website was developed using HTML, CSS and Bootstrap.
 
 ### Goal
 
