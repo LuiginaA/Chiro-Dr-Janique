@@ -9,7 +9,7 @@
 /* ---------------------------------Colors */
 
 .ui-menu-color-home {
-    background-color: #BCA68D;
+    background-color: #D2C5B8;
  
 }
 
@@ -27,9 +27,14 @@
     background-color: #F3ECE6;
 
 }
+
+.ui-menu-color-conditions {
+    background-color: #D1C7B8;
+
+}
     
 .ui-menu-color-contact {
-    background-color: #D9C8B7;
+    background-color: #C3B5A8;
  
 }
 
@@ -50,13 +55,9 @@ margin: 0;
 .general-sub {
     font-family: Merriweather, sans-serif;
     font-weight: 300;
-    color: #C3B5A8;
+    color: #854A14;
 }
 
-
-.inline-block {
-    display: inline-block;
-}
 
 
 .row-table {
@@ -65,30 +66,36 @@ margin: 0;
 
 /* ---------------------------------Heading */
 
-header {
+.header {
     margin: 0;
+
 }
 
 .heading {
-    margin-left: 80px;
+    padding-top: 0;
+    text-align: center;
 }
+
+
 
 .logo {
     background: url("../images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 360px;  
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;  
 }
+
+
 
 .name {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
     color: #854a14;
     
@@ -106,7 +113,7 @@ header {
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0;
+    margin-bottom: 5px;
 }
 
 .menucontainer {
@@ -116,12 +123,12 @@ header {
 
 #nav {
     margin: 0;
-    align-items: left;
+    align-items: right; 
 }
 
 #nav li {
     font-size: 12px;
-    padding: 0;
+    padding: 5px;
     margin-right: 0;
 }
 
@@ -129,7 +136,7 @@ header {
 .menuitem {
   height: 120px; 
   text-align: center; 
-  padding: 0;
+  padding: 5px;
 }
 
 .menuitem a {
@@ -139,14 +146,15 @@ header {
     height: 120px;
 }
 .menuitem a i {
-    padding-top: 22px;
-    display: block;
+    padding-top: 28px;
+    display: contents;
     color: #854a14;
     font-size: 26px;
+    line-height: 2;
 }
 
 .menuitem span {
-    display: block;
+    display: inline-block;
     width: 100%;
     padding-top: 5px;
     text-align: center;
@@ -165,5 +173,64 @@ header {
 .hvr-sweep-to-bottom::before {
 background:rgb(157, 103, 21, 0.2);
 height: 120px;
+}
+
+/* ---------------------------------Footer */
+
+.footer {
+    background-color: #EDE6DE;
+    color: #854A14;
+    min-height: 120px;
+    margin: 0;
+}
+
+.forms.pdf i {
+    font-size: 13px;
+    color: #854A14;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.forms-pdf i:hover {
+    color: #D5D3D1;
+}
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #854914;
+    background: #F4ECE6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #c18963;
+}
+
+
+#footer-details {
+    padding: 20px;
+}
+
+.forms-pdf i:hover {
+    color: rgb(157, 103, 21, 0.5);
 }
 
