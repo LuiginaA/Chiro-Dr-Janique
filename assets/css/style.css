@@ -8,57 +8,76 @@
 
 /* ---------------------------------Colors */
 
+
+.bg-color-header {
+    background-color: #D9C8B7;
+}
+
 .ui-menu-color-home {
-    background-color: #D2C5B8;
- 
+    background-color: #EDE6DE;
+
 }
 
 .ui-menu-color-about {
-    background-color: #EDE6DE;
- 
-}
-
-.ui-menu-color-chiropractic {
     background-color: #DBD4CC;
 
 }
 
+.ui-menu-color-chiropractic {
+    background-color: #EDE6DE;
+
+}
+
 .ui-menu-color-treatments {
-    background-color: #F3ECE6;
+    background-color: #DBD4CC;
 
 }
 
 .ui-menu-color-conditions {
-    background-color: #D1C7B8;
+    background-color: #EDE6DE;
 
 }
-    
+
 .ui-menu-color-contact {
-    background-color: #C3B5A8;
- 
+    background-color: #DBD4CC;
+
 }
+
+
+/* .ui-menu-color-button {
+    background-color:#854A14;
+} */
+
 
 .bg-color-name-title {
     background-color:#F4ECE6;
 }
 
-/* ---------------------------------Special paddinds/margins/text */
+.bg-color-footer {
+    background-color:#D1C7B8;
+}
+
+
+/* ---------------------------------Special paddings/margins/text */
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
 margin: 0;
 
 }
 
-.general-sub {
+.footer-general-sub {
+    padding-top: 5px; 
     font-family: Merriweather, sans-serif;
+    font-size: 12px;
     font-weight: 300;
-    color: #854A14;
+    color: #854A14; 
+   
 }
-
-
 
 .row-table {
     display: table;
@@ -74,40 +93,60 @@ margin: 0;
 .heading {
     padding-top: 0;
     text-align: center;
+    font-style: italic;
 }
 
-
-
-.logo {
-    background: url("../images/logo.png");
-    background-position: center;
+.main-logo {
+    background: url("../images/chiro-logo.png");
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;  
+    margin-top: 1%;
+    margin-bottom: 1%;
+    min-height: 120px;   
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;  
+    -webkit-transition: all .5s ease-in-out; 
 }
 
+.logo-image {
+    height: 200px; 
+    width: 350px;
+    border-radius: 50%;  
+
+}
+ 
+
+/* ---------------------------------Button */
+
+/* button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#D2C5B6;
+    font-weight: bold;
+    font-size: 20px;
+}  */
+
+
+/* ---------------------------------Name title */
 
 
 .name {
-    font-family: "Lato", sans-serif;
+    font-family: Merriweather, sans-serif;
     font-weight: 500;
     font-size: 40px;
     margin-top: 25px;
     text-align: center;
-    color: #854a14;
-    
+    color: #854A14;
+
 }
 
 .title {
-    font-family: italic;
-    font-weight: 800i;
-    font-size: 65px; 
+    font-family: Merriweather, sans-serif;;
+    font-weight: 600;
+    font-size: 65px;
     margin-top: 50px;
     margin-bottom: 90px;
-    color: #854a14;
+    color: #854A14;
     text-align: center;
 
 }
@@ -118,12 +157,13 @@ margin: 0;
 
 .menucontainer {
     font-size: 0;
+    padding: 0;
+ 
 }
 
-
 #nav {
-    margin: 0;
-    align-items: right; 
+    margin: 8%;
+    align-items: right;
 }
 
 #nav li {
@@ -132,23 +172,23 @@ margin: 0;
     margin-right: 0;
 }
 
-
 .menuitem {
-  height: 120px; 
-  text-align: center; 
+  height: 120px;
+  text-align: center;
   padding: 5px;
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #854a14;
+    color: #854A14;
     height: 120px;
 }
+
 .menuitem a i {
     padding-top: 28px;
     display: contents;
-    color: #854a14;
+    color: #854A14;
     font-size: 26px;
     line-height: 2;
 }
@@ -160,12 +200,27 @@ margin: 0;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.quote {
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #854A14;
+
 }
 
+.quote p {
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-size: 12px;
+    font-weight: 400;;
+    color: #854A14;
 
+}
 
 
 /* ---------------------------------Hover.css */
@@ -180,40 +235,111 @@ height: 120px;
 .footer {
     background-color: #EDE6DE;
     color: #854A14;
-    min-height: 120px;
+    background-size: cover;
+    width: 100%;
     margin: 0;
+    padding: 2px;
+    padding-top: 2px;
 }
 
-.forms.pdf i {
-    font-size: 13px;
-    color: #854A14;
+.footer-logo {
+    background: url("../images/chiro-logo.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out; 
+}
+
+.logo-image {
+    height: 200px;
+    width: 350px;
+    border-radius: 50%;  
+
+}
+
+.section-heading {
+    font-family: Merriweather, sans-serif;
+    font-style: italic;
     text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    padding-top: 15px;
 
 }
 
-.forms-pdf i:hover {
-    color: #D5D3D1;
+.footer-p {
+    font-size: small;
+    
 }
 
+.footer-info-item {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: inline;
+    clear: both;
+    font-family: Merriweather, sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: left;
+    color: #854A14;
+    padding: 10px;
+}
+
+.footer-info-item {
+    width: 100%;
+    margin-right: 2px;
+    padding-top: 2px;
+    vertical-align: top;
+} 
+
+.footer-info-item p {
+    font-weight: 300;
+    margin: 0;
+
+}
+
+.footer-info-item-heading {
+    font-family: Merriweather, sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+
+.list-inline {
+    text-align: left;
+}
+
+.download i,
 .social-links {
     padding-bottom: 15px;
 
 }
 
-.social-links li a i {
+.download i {
     width: 32px;
     height: 32px;
-    padding: 12px 0;
+    padding: 15px 0;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #854914;
+    color: #F4ECE6;
+    background: #D1C7B8;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.forms-pdf a i,
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #854A14;
     background: #F4ECE6;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -221,16 +347,18 @@ height: 120px;
     -o-transition: all 0.35s ease-in-out;
 }
 
+.download i,
+.forms-pdf a i,
 .social-links li a i:hover {
-    background: #c18963;
+    background: #C18963;
 }
 
 
-#footer-details {
-    padding: 20px;
-}
 
-.forms-pdf i:hover {
-    color: rgb(157, 103, 21, 0.5);
-}
+
+
+
+
+
+
 
