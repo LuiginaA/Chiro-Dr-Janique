@@ -53,7 +53,7 @@
 
 ### Introduction
 
-    This is my first attempt at building a website for my daughter’s New Chiropractic Practice. I was inspired by someone very special to me, who introduced me to the coding world of Full Stack Development.  This motivated me to attempt building my very first website and beginning my journey in Full Stack Development.
+    This is my first attempt at building a website. I am doing this particular project for my daughter’s New Chiropractic Practice. I was inspired by someone very special to me, who introduced me to the coding world of Full Stack Development.  This motivated me to attempt building my very first website and beginning my journey in Full Stack Development.
     Although it was very overwhelming and difficult, as well as very challenging, the sheer pleasure of seeing my site slowly coming together is exhilarating. Every step good or bad was and still is a new learning experience.
     Using the principles of UX design, this fully responsive website was developed using HTML, CSS and Bootstrap.
 
@@ -151,4 +151,4 @@ These fonts have been chosen and is used throughout the website with sans-serif 
 
 The wireframes for desktop, mobile and tablet for this project can be found below:
 
-## Future Featurs
+## Future Features
