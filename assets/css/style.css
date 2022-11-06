@@ -15,39 +15,40 @@
 
 .ui-menu-color-home {
     background-color: #EDE6DE;
-
 }
 
 .ui-menu-color-about {
     background-color: #DBD4CC;
-
 }
 
 .ui-menu-color-chiropractic {
     background-color: #EDE6DE;
-
 }
 
 .ui-menu-color-treatments {
     background-color: #DBD4CC;
-
 }
 
 .ui-menu-color-conditions {
     background-color: #EDE6DE;
-
 }
 
 .ui-menu-color-contact {
-    background-color: #DBD4CC;
-
+    background-color:#DBD4CC;
 }
 
+.bg-colour-appoint {
+    background-color: #D9C8B7; 
+}
 
-/* .ui-menu-color-button {
+.contact-container {
+    background-color: #D9C8B7; 
+}   
+
+
+.ui-menu-color-button {
     background-color:#854A14;
-} */
-
+} 
 
 .bg-color-name-title {
     background-color:#F4ECE6;
@@ -100,6 +101,9 @@ margin: 0;
     background: url("../images/chiro-logo.png");
     background-size: cover; 
     background-repeat: no-repeat;
+    height: 200px; 
+    width: 350px;
+    border-radius: 50%;
     margin-top: 1%;
     margin-bottom: 1%;
     min-height: 120px;   
@@ -108,23 +112,15 @@ margin: 0;
     -webkit-transition: all .5s ease-in-out; 
 }
 
-.logo-image {
-    height: 200px; 
-    width: 350px;
-    border-radius: 50%;  
-
-}
- 
-
 /* ---------------------------------Button */
 
-/* button[type="submit"] {
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color:#D2C5B6;
     font-weight: bold;
     font-size: 20px;
-}  */
+}  
 
 
 /* ---------------------------------Name title */
@@ -157,7 +153,8 @@ margin: 0;
 
 .menucontainer {
     font-size: 0;
-    padding: 0;
+    padding-left: 2px;
+    padding-right: 2px;
  
 }
 
@@ -204,6 +201,7 @@ margin: 0;
     letter-spacing: 1px;
 
 }
+
 .quote {
     text-align: center;
     font-family: Merriweather, sans-serif;
@@ -230,6 +228,13 @@ background:rgb(157, 103, 21, 0.2);
 height: 120px;
 }
 
+/* ---------------------------------Hover.css */
+
+.hvr-sweep-to-bottom::before {
+    background:rgb(157, 103, 21, 0.2);
+    height: 90px;
+    }
+
 /* ---------------------------------Footer */
 
 .footer {
@@ -246,17 +251,13 @@ height: 120px;
     background: url("../images/chiro-logo.png");
     background-size: cover; 
     background-repeat: no-repeat;
+    height: 200px;
+    width: 350px;
+    border-radius: 50%; 
     margin-top: 1%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out; 
-}
-
-.logo-image {
-    height: 200px;
-    width: 350px;
-    border-radius: 50%;  
-
 }
 
 .section-heading {
@@ -283,6 +284,7 @@ height: 120px;
     text-align: left;
     color: #854A14;
     padding: 10px;
+
 }
 
 .footer-info-item {
@@ -290,6 +292,7 @@ height: 120px;
     margin-right: 2px;
     padding-top: 2px;
     vertical-align: top;
+
 } 
 
 .footer-info-item p {
@@ -302,10 +305,12 @@ height: 120px;
     font-family: Merriweather, sans-serif;
     font-weight: 200;
     text-align: left;
+
 }
 
 .list-inline {
     text-align: left;
+
 }
 
 .download i,
@@ -328,6 +333,7 @@ height: 120px;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+
 }
 
 .forms-pdf a i,
@@ -345,20 +351,185 @@ height: 120px;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+
 }
 
 .download i,
 .forms-pdf a i,
 .social-links li a i:hover {
     background: #C18963;
+
+}
+
+
+/* ---------------------------------Contact Form */
+
+.body-container {
+    font-size: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    background-color: red;
+  
+}
+
+.contact-heading {
+    font-family: Merriweather, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #854A14;
+
+}
+
+#navbar {
+    margin: 8%;
+    align-items: center;
+
+}
+
+#navbar li {
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 0;
+
+}
+
+
+.menuitem,
+.contact-menuitem {
+    height: 90px;
+    text-align: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+  }
+  
+  .contact-menuitem a {
+      width: 100%;
+      height: 90px;
+      text-decoration: none;
+      text-align: center;
+      color: #854A14;
+      padding-top: 2px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+  }
+   
+  .contact-menuitem span {
+    display: block;
+    width: 60%;
+    padding-top: 25px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+     
+    }
+
+  .address-menuitem {
+    height: 180%;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   
+  }
+
+
+/* ---------------------------------Hover.css Contact Page */
+
+  /* .hvr-sweep-to-bottom::before {
+    background:rgb(157, 103, 21, 0.2);
+    height: 80px;
+    } */
+
+
+ /* ---------------------------------Appointment Request */   
+
+.appoint-heading {
+    font-family: Merriweather, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+
+    
+    /* margin: 5%, 5%, 5%, 5%; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 15%;
+    color: #854A14;
+
+}
+
+.contact-container {
+    align-content: center;
+   
+} 
+
+
+.colgroup {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    
+} 
+ 
+
+.centre-form {
+    padding-top: 5%;
+
+}
+
+.address-menuitem p {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+    color: #4A3729;
+
+}
+
+.container-hours {
+    padding-top: 25%;
+    margin: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 100%;
+    height: 60%;
+    
+}
+
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #DBD4CC;
+    border-color: #4A3729;
+    background-color: rgba(98, 68, 4, 0.906); 
+ 
 }
 
 
 
 
+/* ---------------------------------Media Queries */
 
-
-
-
-
-
+@media(min-width: 992px) {
+    .centre-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    
+}
