@@ -87,7 +87,7 @@ external record keeping, appointment and billing database called “Clinico”.
   - I wish to easily navigate the site so that I can have a good user experience.
   - I wish to easily understand what Chiropractic Care is about.
   - I wish to view all the various methods of treatments.
-  - I wish to search for a specific treatment or category so that I may find if I am a candidate.
+  - I wish to search for a specific treatment or category so that I may find out whether I am a candidate or not.
   - I wish to view full treatment information so that I can see the details of a specific treatment.
   - I would like to easily understand aftercare procedures
   - I wish to know if rates are medical aid based.
