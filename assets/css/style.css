@@ -8,7 +8,10 @@
 
 /* ---------------------------------Colors */
 
-
+.bg-color-topnav {
+    background-color:#FCE9DF ;
+}
+  
 .bg-color-header {
     background-color: #D9C8B7;
 }
@@ -37,14 +40,13 @@
     background-color:#DBD4CC;
 }
 
-.bg-colour-appoint {
-    background-color: #D9C8B7; 
+.bg-color-appoint {
+    background-color: #F4ECE6; 
 }
 
 .contact-container {
     background-color: #D9C8B7; 
 }   
-
 
 .ui-menu-color-button {
     background-color:#854A14;
@@ -56,6 +58,16 @@
 
 .bg-color-footer {
     background-color:#D1C7B8;
+}
+
+#about {
+    background-color: #fefefe;
+
+}
+
+#circle-container {
+    border-color: #4A3729;
+
 }
 
 
@@ -83,6 +95,74 @@ margin: 0;
 .row-table {
     display: table;
 }
+
+
+/* ---------------------------------TopNav */
+
+.topnavbar {
+    align-items: left;
+    align-content: center;
+ 
+}   
+
+.topnav-left a {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    align-items: left;
+    color: #854A14;
+    text-decoration: none;
+    
+}   
+
+.topnav-right a {
+    float: right;
+    padding-right: 10px;
+    padding-left: 15px;
+    align-items: right;
+    color: #854A14;  
+    
+}   
+
+.topnav-left i,
+.topnav-right i {
+    color: #854A14; 
+
+} 
+.topnav-left span {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.topnav-right span {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #DBD4CC;
+    background-color: #854A14;
+    border: none;
+   
+}
+
+
 
 /* ---------------------------------Heading */
 
@@ -112,14 +192,18 @@ margin: 0;
     -webkit-transition: all .5s ease-in-out; 
 }
 
+
+
 /* ---------------------------------Button */
 
-button[type="submit"] {
+.button[type="submit"] {
     margin-top: 5px;
     margin-bottom: 20px;
-    color:#D2C5B6;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 20px;
+    color: #DBD4CC;
+    background-color: #854A14;
+    border: none;
 }  
 
 
@@ -203,6 +287,17 @@ button[type="submit"] {
     letter-spacing: 1px;
 
 }
+
+.btn-default span {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+} 
 
 .quote {
     text-align: center;
@@ -501,7 +596,7 @@ height: 120px;
 }
 
 .container-hours {
-    padding-top: 25%;
+    padding-top: 35%;
     margin: 0;
     margin-left: 2px;
     margin-right: 2px;
@@ -535,3 +630,154 @@ button[type="submit"] {
     }
     
 }
+
+/* ---------------------------------About Section */
+
+#about {
+    height: 750px;
+    width: 100%;
+    padding-left: 20px;
+  
+}
+
+#about h1 {
+    font-size: 50px;
+    font-family: "Lato sans-serif";
+    text-align: center;
+    padding: 10px 0;
+    color: #4A3729; 
+
+}
+
+#left-about {
+    padding-top: 50px;
+    width: 23%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 40px;
+    width: 23%;
+    float: right;
+  }
+
+#center-about {
+    width: 50%;
+    margin: 0 auto;
+    
+  }  
+
+
+.left-about-heading {
+    float: right;
+    width: 90%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+    
+}
+
+.left-about-heading h2 {
+    text-align: left;
+    color: #4A3729; 
+
+
+}
+
+.left-about-heading p {
+    text-align: left;
+    color: #854A14; 
+
+}
+
+.right-about-heading {
+    width: 90%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+    color: #4A3729; 
+
+}
+
+.right-about-heading p {
+    text-align: right;
+    color: #854A14; 
+
+}
+  
+
+#circle-container {
+    width: 620px;
+    height: 620px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto; 
+} 
+
+#circle-cover-bg {
+    background: url("../images/Janique.jpg") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1393px) {
+    #about {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #intro {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+    
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .left-about-heading, 
+    .right-about-heading h2 {
+        width: inherit;
+    
+    } 
+
+    .left-about-heading, .right-about-heading p {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #centre-about { 
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+}
+
+    #circle-container {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #circle-container-bg {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    } 
+}
+
