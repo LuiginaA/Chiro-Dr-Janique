@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
-/* ---------------------------------Colors */
+/* --------------------------------- Topnav header Button Footer Colors */
 
 .bg-color-topnav {
     background-color:#FCE9DF ;
@@ -40,24 +40,19 @@
     background-color:#DBD4CC;
 }
 
-.bg-color-appoint {
-    background-color: #F4ECE6; 
-}
-
-.contact-container {
-    background-color: #D9C8B7; 
-}   
-
 .ui-menu-color-button {
     background-color:#854A14;
 } 
 
-.bg-color-name-title {
-    background-color:#F4ECE6;
-}
-
 .bg-color-footer {
     background-color:#D1C7B8;
+} 
+
+
+/* --------------------------------- Title About Colors */
+
+.bg-color-name-title {
+    background-color:#F4ECE6;
 }
 
 #about {
@@ -69,6 +64,20 @@
     border-color: #4A3729;
 
 }
+
+/* --------------------------------- Appoint Form Contact Tab Colors */
+
+
+.bg-color-appoint {
+    background-color: #D9C8B7; 
+} 
+
+/* .bg-color-contact-container {
+    background-color: #D9C8B7; 
+}    */
+
+
+
 
 
 /* ---------------------------------Special paddings/margins/text */
@@ -208,8 +217,6 @@ button[type="submit"] {
 
 
 /* ---------------------------------Name title */
-
-
 .name {
     font-family: Merriweather, sans-serif;
     font-weight: 500;
@@ -335,7 +342,6 @@ height: 120px;
 /* ---------------------------------Footer */
 
 .footer {
-    background-color: #EDE6DE;
     color: #854A14;
     background-size: cover;
     width: 100%;
@@ -461,126 +467,118 @@ height: 120px;
 
 /* ---------------------------------Contact Form */
 
-.body-container {
-    font-size: 0;
-    margin-left: 30%;
-    margin-right: 30%;
-    padding-left: 5px;
+.contact-heading-container {
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 2px;
     padding-right: 5px;
-    align-items: center;
-    background-color: red;
-  
+   
+  }
+
+
+#care {
+    background: url("../images/Care.jpg") no-repeat center center;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
 }
+
 
 .contact-heading {
     font-family: Merriweather, sans-serif;
     font-weight: 400;
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 25px;
+    font-size: 18px;
+    color: #854A14;
+   
+}
+
+.contact-heading h2,
+.contact-heading h4 {
+    margin-top: 10px;
     text-align: center;
+   
+} 
+
+.contact-heading h2 {
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #4A3729;
+    
+   
+}
+
+.contact-heading h4 {
+    font-family: Merriweather, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
     color: #854A14;
 
 }
 
-#navbar {
-    margin: 8%;
-    align-items: center;
 
+.menucontainer-contact {
+    font-size: 0;
+    padding-left: 35%;
+    padding-right: 2px;
+    align-content: space-between;
 }
 
-#navbar li {
+#nav {
+    margin: 5%;
+    align-items: right;
+}
+
+#nav li {
     font-size: 12px;
-    padding: 2px;
-    margin-right: 0;
-
+    padding: 12px;
+    margin: 0;
 }
 
-
-.menuitem,
 .contact-menuitem {
     height: 90px;
     text-align: center;
-    align-items: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
-
+    align-content: right;
+    padding: 5px;
+  
   }
   
   .contact-menuitem a {
       width: 100%;
-      height: 90px;
       text-decoration: none;
-      text-align: center;
       color: #854A14;
-      padding-top: 2px;
-      padding-left: 10px;
-      padding-right: 10px;
-
+      height: 80px;
   }
-   
+  
+  
   .contact-menuitem span {
-    display: block;
-    width: 60%;
-    padding-top: 25px;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
-     
-    }
-
-  .address-menuitem {
-    height: 180%;
-    text-align: left;
-    padding-top: 2px;
-    padding-bottom: 2px;
-   
+      display: right;
+      width: 100%;
+      padding-top: 5px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 1px;
+  
   }
+  
 
 
-/* ---------------------------------Hover.css Contact Page */
 
-  /* .hvr-sweep-to-bottom::before {
+  
+
+/*---------------------------------Hover.css Contact Page */
+
+.hvr-sweep-to-bottom::before {
     background:rgb(157, 103, 21, 0.2);
     height: 80px;
-    } */
+    } 
 
 
- /* ---------------------------------Appointment Request */   
-
-.appoint-heading {
-    font-family: Merriweather, sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-
-    
-    /* margin: 5%, 5%, 5%, 5%; */
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 15%;
-    color: #854A14;
-
-}
-
-.contact-container {
-    align-content: center;
-   
-} 
 
 
-.colgroup {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    align-items: center;
-    text-align: center;
-    
-} 
- 
 
 .centre-form {
     padding-top: 5%;
@@ -614,7 +612,7 @@ button[type="submit"] {
     border-color: #4A3729;
     background-color: rgba(98, 68, 4, 0.906); 
  
-}
+}   
 
 
 
@@ -629,7 +627,7 @@ button[type="submit"] {
         max-width: 50%;
     }
     
-}
+} 
 
 /* ---------------------------------About Section */
 
