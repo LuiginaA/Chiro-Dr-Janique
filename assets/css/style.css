@@ -67,18 +67,10 @@
 
 /* --------------------------------- Appoint Form Contact Tab Colors */
 
-
-.bg-color-appoint {
-    background-color: #D9C8B7; 
-} 
-
-/* .bg-color-contact-container {
-    background-color: #D9C8B7; 
-}    */
-
-
-
-
+.bg-color-contact-heading-container {
+    background-color: #EDE6DE;  
+    
+ } 
 
 /* ---------------------------------Special paddings/margins/text */
 
@@ -468,24 +460,12 @@ height: 120px;
 /* ---------------------------------Contact Form */
 
 .contact-heading-container {
-    justify-content: center;
-    padding-top: 0px;
-    padding-left: 2px;
-    padding-right: 5px;
-   
-  }
+    background-size: cover;
+    text-align: center;
+ 
+} 
 
-
-#care {
-    background: url("../images/Care.jpg") no-repeat center center;
-    background-position: center;
-    height: 90vh;
-    width: 100%;
-    overflow: hidden;
-}
-
-
-.contact-heading {
+.contact-heading-container {
     font-family: Merriweather, sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -493,53 +473,91 @@ height: 120px;
    
 }
 
-.contact-heading h2,
-.contact-heading h4 {
-    margin-top: 10px;
+.contact-heading-container h2, h3,
+.contact-heading-container h4 {
+    margin-top: 0;
     text-align: center;
-   
+    align-content: space-between;   
 } 
 
-.contact-heading h2 {
+.contact-heading-container h1 {
     font-family: Lato, sans-serif;
     font-weight: 500;
     font-size: 30px;
-    color: #4A3729;
-    
-   
-}
-
-.contact-heading h4 {
-    font-family: Merriweather, sans-serif;
-    font-weight: 800;
-    font-size: 32px;
     color: #854A14;
+    text-align: right;
+    
+}
+
+.contact-heading-container h3 {
+    font-family: Merriweather, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    font-style: italic;
+    color: #4A3729;
 
 }
 
+.contact-heading-container h4 {
+    font-family: Merriweather, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #4A3729;
+
+}
+
+.image-container {
+margin: 0;
+
+}
+
+#care {
+    background: url("../images/Care.jpg") no-repeat center center;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+
+}
 
 .menucontainer-contact {
     font-size: 0;
-    padding-left: 35%;
+    padding-left: 0;
     padding-right: 2px;
-    align-content: space-between;
+    margin-left: 35%;
+    margin-top: 5px;
+ 
 }
 
-#nav {
-    margin: 5%;
+#nav-menucontainer-contact {
+    align-content: center;
+
+}
+
+.list-inline-item {
+    margin: 
+    2%;
     align-items: right;
+
 }
 
-#nav li {
+#list-inline-item ul {
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 0;
+    
+}
+
+#list-inline-item li {
     font-size: 12px;
     padding: 12px;
     margin: 0;
-}
+    
+} 
 
 .contact-menuitem {
     height: 90px;
     text-align: center;
-    align-content: right;
+    align-content: left;
     padding: 5px;
   
   }
