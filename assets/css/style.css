@@ -40,6 +40,11 @@
     background-color:#DBD4CC;
 }
 
+
+.ui-menu-color-form {
+    background-color:#F4ECE6; 
+}
+
 .ui-menu-color-button {
     background-color:#854A14;
 } 
@@ -72,6 +77,12 @@
     
  } 
 
+ 
+ .bg-color-appoint {
+    background-color: #f3ECE4;
+ }
+
+ 
 /* ---------------------------------Special paddings/margins/text */
 
 h1,
@@ -462,6 +473,7 @@ height: 120px;
 .contact-heading-container {
     background-size: cover;
     text-align: center;
+    margin-left: 40px;
  
 } 
 
@@ -513,8 +525,8 @@ margin: 0;
 
 #care {
     background: url("../images/care.jpg") no-repeat center center;
-    height: 90vh;
-    width: 100%;
+    height: 120vh;
+    width: cover;
     overflow: hidden;
 
 }
@@ -534,8 +546,7 @@ margin: 0;
 }
 
 .list-inline-item {
-    margin: 
-    2%;
+    margin: 5%;
     align-items: right;
 
 }
@@ -584,9 +595,6 @@ margin: 0;
   
 
 
-
-  
-
 /*---------------------------------Hover.css Contact Page */
 
 .hvr-sweep-to-bottom::before {
@@ -595,11 +603,15 @@ margin: 0;
     } 
 
 
+    /*---------------------------------Submit Appoint Form */  
 
-
-
-.centre-form {
-    padding-top: 5%;
+.submit-form {
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-top: 5%;
+    height: 100%;
+    width: 60%;
+  
 
 }
 
