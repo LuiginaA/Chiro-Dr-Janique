@@ -192,15 +192,14 @@ button[type="submit"] {
 }
 
 .main-logo {
-    background: url("../images/chiro-logo.png");
+    background: url("../images/unnamed.png");
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 200px; 
+    height: 350px; 
     width: 350px;
-    border-radius: 50%;
     margin-top: 1%;
     margin-bottom: 1%;
-    min-height: 120px;   
+    min-height: 120px;    
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out; 
@@ -356,12 +355,11 @@ height: 120px;
 }
 
 .footer-logo {
-    background: url("../images/chiro-logo.png");
+    background: url("../images/named1.png");
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 200px;
-    width: 350px;
-    border-radius: 50%; 
+    height: 350px;
+    width: 350px; 
     margin-top: 1%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
