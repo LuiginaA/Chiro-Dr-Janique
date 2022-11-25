@@ -53,7 +53,9 @@
     background-color:#D1C7B8;
 } 
 
-
+/* .bg-color-modal {
+    background-color: #FCE9DF;
+} */
 /* --------------------------------- Title About Colors */
 
 .bg-color-name-title {
@@ -337,10 +339,10 @@ height: 120px;
 
 /* ---------------------------------Hover.css */
 
-.hvr-sweep-to-bottom::before {
+/* .hvr-sweep-to-bottom::before {
     background:rgb(157, 103, 21, 0.2);
     height: 90px;
-    }
+    } */
 
 /* ---------------------------------Footer */
 
@@ -479,7 +481,7 @@ height: 120px;
 
 .contact-heading-container {
     font-family: Merriweather, sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 18px;
     color: #854A14;
    
@@ -496,7 +498,7 @@ height: 120px;
     font-family: Lato, sans-serif;
     font-weight: 500;
     font-size: 30px;
-    color: #854A14;
+    color: #4A3729;
     text-align: right;
     
 }
@@ -528,8 +530,11 @@ margin: 0;
     height: 120vh;
     width: cover;
     overflow: hidden;
+    opacity: 0.5;
 
 }
+
+
 
 .menucontainer-contact {
     font-size: 0;
@@ -709,7 +714,6 @@ button[type="submit"] {
     text-align: left;
     color: #4A3729; 
 
-
 }
 
 .left-about-heading p {
@@ -724,6 +728,7 @@ button[type="submit"] {
     line-height: 20px;
     clear: both;
     margin-bottom: 30px;
+
 }
 
 .right-about-heading h2 {
@@ -738,7 +743,6 @@ button[type="submit"] {
 
 }
   
-
 #circle-container {
     width: 620px;
     height: 620px;
@@ -747,13 +751,15 @@ button[type="submit"] {
     border-width: 3px;
     border-radius: 50%;
     margin: 0 auto; 
+
 } 
 
 #circle-cover-bg {
-    background: url("../images/Janique.jpg") no-repeat center center;
+    background: url("../images/drjani.jpg") no-repeat center center;
     height: 100%;
     width: 100%;
     border-radius: 50%;
+
 }
 
 
@@ -762,50 +768,113 @@ button[type="submit"] {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    }
 
-    #intro {
-        padding: 30px 0;
-        margin-top: 0;
     }
     
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
 
-    .left-about-heading, 
-    .right-about-heading h2 {
-        width: inherit;
+#intro {
+    padding: 30px 0;
+    margin-top: 0;
+
+}
     
-    } 
+#left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
 
-    .left-about-heading, .right-about-heading p {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #centre-about { 
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
 }
 
-    #circle-container {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
+.left-about-heading, 
+.right-about-heading h2 {
+    width: inherit;
+    
+} 
 
-    #circle-container-bg {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    } 
+.left-about-heading, .right-about-heading p {
+    width: 100%;
+    float: left;
+    padding: 0;
+
 }
 
+#centre-about { 
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+
+}
+
+#circle-container {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+
+}
+
+#circle-container-bg {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+
+} 
+
+}
+
+/* ---------------------------------Chiropractics */
+
+.container-chiro {
+    margin: 0;
+    padding: 0;
+   
+}
+ 
+
+.adjust-cover-bg {  
+    size: cover; 
+    width: 100%;
+    
+} 
+
+
+.container-chiro {
+    size: cover;
+    height: 120vh;
+    width: cover;  
+
+}  
+
+
+#adjustment {
+background: url("../images/adjustment.jpg");
+background-size: cover; 
+background-repeat: no-repeat;
+height: 100%; 
+width: 100%;
+
+}
+
+ 
+.container-chiro h4 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 400;
+    color: #4A3729;
+
+ }
+
+
+ .container-chiro h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 500;
+    color: #854A14;
+
+}
