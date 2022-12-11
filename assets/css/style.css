@@ -9,53 +9,59 @@
 /* --------------------------------- Topnav header Button Footer Colors */
 
 .bg-color-topnav {
-    background-color:#FCE9DF;
-}
-  
-.bg-color-header {
     background-color: #D9C8B7;
 }
 
-.ui-menu-color-home {
+.bg-color-header {
+    background-color: #FCE9DF;
+}
+
+/* .ui-menu-color-home {
     background-color: #EDE6DE;
 }
 
-.ui-menu-color-about {
+.ui-menu-color-whydrj {
     background-color: #DBD4CC;
-}
-
-.ui-menu-color-chiropractic {
-    background-color: #EDE6DE;
 }
 
 .ui-menu-color-treatments {
-    background-color: #DBD4CC;
-}
-
-.ui-menu-color-conditions {
     background-color: #EDE6DE;
 }
 
-.ui-menu-color-contact {
-    background-color:#DBD4CC;
+.ui-menu-color-chiropractor btn {
+    background-color: #DBD4CC;
 }
 
+.ui-menu-color-first-visit {
+    background-color: #EDE6DE;
+}
+
+.ui-menu-color-condiions {
+    background-color:#DBD4CC;
+}
+.ui-menu-color-contact {
+    background-color:#EDE6DE;
+} */
+
+.bg-color-navbar {
+    background-color:#EDE6DE
+}
 
 .ui-menu-color-form {
-    background-color:#F4ECE6; 
+    background-color:#F4ECE6;
 }
 
 .ui-menu-color-button {
     background-color:#854A14;
-} 
+}
 
 .bg-color-footer {
     background-color:#D1C7B8;
-} 
+}
 
 /* .bg-color-modal {
     background-color: #FCE9DF;
-} */
+}  */
 /* --------------------------------- Title About Colors */
 
 .bg-color-name-title {
@@ -75,16 +81,26 @@
 /* --------------------------------- Appoint Form Contact Tab Colors */
 
 .bg-color-contact-heading-container {
-    background-color: #EDE6DE;  
-    
- } 
+    background-color: #EDE6DE;
 
- 
+ }
+
+
  .bg-color-appoint {
     background-color: #f3ECE4;
  }
 
- 
+ /*-------------------------------- Why Choose Section */
+/*
+ .bg-color-why {
+    background-color: black;
+
+ }
+
+.container-why {
+    background-color: #F4ECE6;
+} */
+
 /* ---------------------------------Special paddings/margins/text */
 
 h1,
@@ -94,91 +110,114 @@ h4,
 h5,
 h6 {
 margin: 0;
+padding: 0;
 
 }
 
-.footer-general-sub {
-    padding-top: 5px; 
-    font-family: Merriweather, sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: #854A14; 
-   
+.inline-block {
+display: inline-block;
 }
 
-.row-table {
+/* .row-table {
     display: table;
-}
+} */
 
 
 /* ---------------------------------TopNav */
+  
+ .topnav {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin: 0;
 
-.topnavbar {
-    align-items: left;
+}
+
+.topnav ul {
+    text-align: center;
+
+}
+
+.topnav li a {
     align-content: center;
- 
-}   
-
-.topnav-left a {
-    float: left;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 15px;
-    align-items: left;
     color: #854A14;
     text-decoration: none;
-    
-}   
-
-.topnav-right a {
-    float: right;
-    padding-right: 10px;
-    padding-left: 15px;
-    align-items: right;
-    color: #854A14;  
-    
-}   
-
-.topnav-left i,
-.topnav-right i {
-    color: #854A14; 
-
-} 
-.topnav-left span {
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-
-}
-
-.topnav-right span {
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
 
 }
 
 
-button[type="submit"] {
+.topnav-text-end a {
+    padding-left: 5px;
+    color: #854A14;
+    align-items: flex-end;
+
+}
+
+.topnav-start i {
+    color: #854A14;
+
+}
+
+/* ---------------------------------TopNav Button */
+
+/* button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
+    margin-right: 10px;
     color: #DBD4CC;
     background-color: #854A14;
     border: none;
+
+}  */
+
+/* ---------------------------------Navbar */
+
+.navbar {
+    margin: 0;
+    color: #4A3729;
+    font-size: medium;
+    font-weight: 500;
+    font-family: Merriweather, sans-serif;
    
+}
+
+.navbar-toggler {
+    color: #4A3729;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 700;
+    font-family: Merriweather, sans-serif;
+
+}
+
+.navbar {
+    padding-top: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.main-logo {
+    background: url("../images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.nav-item li {
+
 }
 
 
 
-/* ---------------------------------Heading */
+
+
+/* ---------------------------------Heading
 
 .header {
     margin: 0;
@@ -193,23 +232,23 @@ button[type="submit"] {
 
 .main-logo {
     background: url("../images/logo.png");
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 350px; 
+    height: 350px;
     width: 350px;
     margin-top: 1%;
     margin-bottom: 1%;
-    min-height: 120px;    
+    min-height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out; 
-}
+    -webkit-transition: all .5s ease-in-out;
+} */
 
 
 
 /* ---------------------------------Button */
 
-.button[type="submit"] {
+/* .button[type="submit"] {
     margin-top: 5px;
     margin-bottom: 20px;
     font-weight: 800;
@@ -217,7 +256,7 @@ button[type="submit"] {
     color: #DBD4CC;
     background-color: #854A14;
     border: none;
-}  
+} */
 
 
 /* ---------------------------------Name title */
@@ -231,27 +270,35 @@ button[type="submit"] {
 
 }
 
+.details {
+    font-size: large;
+    text-align: center;
+    padding-top: 12px;
+
+}
+
+
 .title {
     font-family: Merriweather, sans-serif;;
     font-weight: 600;
     font-size: 65px;
-    margin-top: 50px;
-    margin-bottom: 90px;
-    color: #854A14;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    color: #854A14; 
     text-align: center;
 
 }
 
 .list-inline-item:not(:last-child) {
     margin-bottom: 2px;
-    
-} 
+
+}
 
 .menucontainer {
     font-size: 0;
     padding-left: 2px;
     padding-right: 2px;
- 
+
 }
 
 #nav {
@@ -308,23 +355,28 @@ button[type="submit"] {
     font-weight: 600;
     letter-spacing: 1px;
 
-} 
+}
 
 .quote {
     text-align: center;
     font-family: Merriweather, sans-serif;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 10px;
+    font-weight: 400;
     color: #854A14;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
 
 }
 
-.quote p {
+.paragraph-quote  {
     text-align: center;
     font-family: Merriweather, sans-serif;
-    font-size: 12px;
-    font-weight: 400;;
+    font-size: medium;
+    font-weight: 400;
     color: #854A14;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -345,95 +397,104 @@ height: 120px;
 
 /* ---------------------------------Footer */
 
-.footer {
-    color: #854A14;
+.container-footer {
     background-size: cover;
     width: 100%;
-    margin: 0;
-    padding: 2px;
-    padding-top: 2px;
+    min-height: 120px;
+   
 }
+
+/* .footer-general-sub {
+    padding-top: 5px;
+    font-family: Merriweather, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #854A14;
+
+} */
+
 
 .footer-logo {
-    background: url("../images/logo.png");
-    background-size: cover; 
+    background: url("../images/footerlogo.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 350px;
-    width: 350px; 
-    margin-top: 1%;
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
 }
 
-.section-heading {
+.footer-section-name {
     font-family: Merriweather, sans-serif;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
-    padding-top: 15px;
+    margin-top: 1%;
+    color: #854A14;
 
 }
 
+
 .footer-p {
-    font-size: small;
+    font-size: 14px;
+    text-align: center;
     
 }
 
+
+ 
+.footer-section-heading {
+    font-family: Merriweather, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    color: #854A14;
+    
+}    
+
+
 .footer-info-item {
-    margin-bottom: 10px;
-    margin-left: 30px;
-    display: inline;
+    background-size: 100%;
+    text-align: left;
+    align-content: space-between;
+    align-items: flex-start;
     clear: both;
     font-family: Merriweather, sans-serif;
     font-size: 12px;
     font-weight: 200;
-    text-align: left;
     color: #854A14;
-    padding: 10px;
-
-}
-
-.footer-info-item {
     width: 100%;
-    margin-right: 2px;
-    padding-top: 2px;
-    vertical-align: top;
-
-} 
-
-.footer-info-item p {
-    font-weight: 300;
-    margin: 0;
-
+    margin-right: 5px;
+   
 }
 
 .footer-info-item-heading {
     font-family: Merriweather, sans-serif;
     font-weight: 200;
     text-align: left;
+    align-content: center;
+    padding-bottom: 25px;
 
-}
+}   
 
-.list-inline {
-    text-align: left;    
-
-}
-
-.download i,
-.social-links {
+.footer i {
+    display: contents;
+    color: green;
+    font-size: 20px;
+    padding-top: 28px;
     padding-bottom: 15px;
+    margin-top: 10px;
+
 
 }
 
-.download i {
-    width: 32px;
-    height: 32px;
-    padding: 15px 0;
-    border-radius: 50%;
+.links {
     font-size: 13px;
-    line-height: 7px;
+    line-height: 20px;
     text-align: center;
-    color: #F4ECE6;
+    color: red;
     background: #D1C7B8;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -441,6 +502,22 @@ height: 120px;
     -o-transition: all 0.35s ease-in-out;
 
 }
+
+.footer ul {
+    text-align: left;
+}
+
+
+
+/* 
+.download i, 
+.social-links {
+    padding-bottom: 25px;
+    
+
+}
+
+
 
 .forms-pdf a i,
 .social-links li a i {
@@ -460,12 +537,12 @@ height: 120px;
 
 }
 
-.download i,
-.forms-pdf a i,
+/* .download i, */
+/* .forms-pdf a i,
 .social-links li a i:hover {
     background: #C18963;
 
-}
+} */ */
 
 
 /* ---------------------------------Contact Form */
@@ -474,23 +551,23 @@ height: 120px;
     background-size: cover;
     text-align: center;
     margin-left: 40px;
- 
-} 
+
+}
 
 .contact-heading-container {
     font-family: Merriweather, sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #854A14;
-   
+
 }
 
 .contact-heading-container h2, h3,
 .contact-heading-container h4 {
     margin-top: 0;
     text-align: center;
-    align-content: space-between;   
-} 
+    align-content: space-between;
+}
 
 .contact-heading-container h1 {
     font-family: Lato, sans-serif;
@@ -498,7 +575,7 @@ height: 120px;
     font-size: 30px;
     color: #4A3729;
     text-align: right;
-    
+
 }
 
 .contact-heading-container h3 {
@@ -540,7 +617,7 @@ margin: 0;
     padding-right: 2px;
     margin-left: 35%;
     margin-top: 5px;
- 
+
 }
 
 #nav-menucontainer-contact {
@@ -558,32 +635,32 @@ margin: 0;
     font-size: 12px;
     padding: 12px;
     margin-top: 0;
-    
+
 }
 
 #list-inline-item li {
     font-size: 12px;
     padding: 12px;
     margin: 0;
-    
-} 
+
+}
 
 .contact-menuitem {
     height: 90px;
     text-align: center;
     align-content: left;
     padding: 5px;
-  
+
   }
-  
+
   .contact-menuitem a {
       width: 100%;
       text-decoration: none;
       color: #854A14;
       height: 80px;
   }
-  
-  
+
+
   .contact-menuitem span {
       display: right;
       width: 100%;
@@ -593,9 +670,9 @@ margin: 0;
       font-size: 14px;
       font-weight: 400;
       letter-spacing: 1px;
-  
+
   }
-  
+
 
 
 /*---------------------------------Hover.css Contact Page */
@@ -603,10 +680,10 @@ margin: 0;
 .hvr-sweep-to-bottom::before {
     background:rgb(157, 103, 21, 0.2);
     height: 80px;
-    } 
+    }
 
 
-    /*---------------------------------Submit Appoint Form */  
+    /*---------------------------------Submit Appoint Form */
 
 .submit-form {
     margin-left: 15%;
@@ -614,7 +691,7 @@ margin: 0;
     margin-top: 5%;
     height: 100%;
     width: 60%;
-  
+
 
 }
 
@@ -633,7 +710,7 @@ margin: 0;
     margin-right: 2px;
     width: 100%;
     height: 60%;
-    
+
 }
 
 
@@ -643,9 +720,9 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #DBD4CC;
     border-color: #4A3729;
-    background-color: rgba(98, 68, 4, 0.906); 
- 
-}   
+    background-color: rgba(98, 68, 4, 0.906);
+
+}
 
 
 
@@ -659,8 +736,8 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
-    
-} 
+
+}
 
 /* ---------------------------------About Section */
 
@@ -668,7 +745,8 @@ button[type="submit"] {
     height: 750px;
     width: 100%;
     padding-left: 20px;
-  
+    padding-top: 10px;
+
 }
 
 #about h1 {
@@ -676,7 +754,7 @@ button[type="submit"] {
     font-family: "Lato sans-serif";
     text-align: center;
     padding: 10px 0;
-    color: #4A3729; 
+    color: #4A3729;
 
 }
 
@@ -695,8 +773,8 @@ button[type="submit"] {
 #center-about {
     width: 50%;
     margin: 0 auto;
-    
-  }  
+
+  }
 
 
 .left-about-heading {
@@ -705,18 +783,18 @@ button[type="submit"] {
     line-height: 20px;
     clear: both;
     margin-bottom: 30px;
-    
+
 }
 
 .left-about-heading h2 {
     text-align: left;
-    color: #4A3729; 
+    color: #4A3729;
 
 }
 
 .left-about-heading p {
     text-align: left;
-    color: #854A14; 
+    color: #854A14;
 
 }
 
@@ -731,26 +809,26 @@ button[type="submit"] {
 
 .right-about-heading h2 {
     text-align: right;
-    color: #4A3729; 
+    color: #4A3729;
 
 }
 
 .right-about-heading p {
     text-align: right;
-    color: #854A14; 
+    color: #854A14;
 
 }
-  
+
 #circle-container {
     width: 620px;
     height: 620px;
-    padding: 10px;
+    padding: 14px;
     border-style: solid;
     border-width: 3px;
     border-radius: 50%;
-    margin: 0 auto; 
+    margin: 0 auto;
 
-} 
+}
 
 #circle-cover-bg {
     background: url("../images/drjani.jpg") no-repeat center center;
@@ -768,14 +846,14 @@ button[type="submit"] {
         margin: 0 auto;
 
     }
-    
+
 
 #intro {
     padding: 30px 0;
     margin-top: 0;
 
 }
-    
+
 #left-about, #right-about {
     width: 100%;
     float: left;
@@ -783,11 +861,11 @@ button[type="submit"] {
 
 }
 
-.left-about-heading, 
+.left-about-heading,
 .right-about-heading h2 {
     width: inherit;
-    
-} 
+
+}
 
 .left-about-heading, .right-about-heading p {
     width: 100%;
@@ -796,7 +874,7 @@ button[type="submit"] {
 
 }
 
-#centre-about { 
+#centre-about {
     clear: both;
     width: 100%;
     float: left;
@@ -818,7 +896,7 @@ button[type="submit"] {
     float: left;
     padding: 0;
 
-} 
+}
 
 }
 
@@ -827,35 +905,35 @@ button[type="submit"] {
 .container-chiro {
     margin: 0;
     padding: 0;
-   
-}
- 
 
-.adjust-cover-bg {  
-    size: cover; 
+}
+
+
+.adjust-cover-bg {
+    size: cover;
     width: 100%;
-    
-} 
+
+}
 
 
 .container-chiro {
     size: cover;
     height: 120vh;
-    width: cover;  
+    width: cover;
 
-}  
+}
 
 
 #adjustment {
 background: url("../images/adjustment.jpg");
-background-size: cover; 
+background-size: cover;
 background-repeat: no-repeat;
-height: 100%; 
+height: 100%;
 width: 100%;
 
 }
 
- 
+
 .container-chiro h4 {
     text-align: center;
     font-size: 28px;
@@ -876,3 +954,149 @@ width: 100%;
     color: #854A14;
 
 }
+
+
+ /*-------------------------------- Why Choose Section */
+
+.container-main {
+    background-color: black;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+.bg-color-why {
+    background-color: #C18963;
+
+}
+
+.text-bg-card-one span {
+    background-color: #D1C7B8;
+}
+
+
+    /* height: 100%;
+    width: 100%; 
+    background-size: cover; 
+    margin: 0;
+    padding: 2px;
+} */
+
+/* .container-why {
+    margin: 40px;
+    text-align: center;
+    padding: 25px;
+    border-spacing: 10%
+}  */
+ .container-why h2, h4 {
+    align-content: space-between;
+    color: #FCE9DF;
+    font-family: merriweather, sans-serif;
+    font-size: 36px;
+   
+ }
+
+ .container-why h5 {
+    color: #FCE9DF;
+    font-family: lato, sans-serif;
+    font-size: 26px;
+ }
+
+ 
+ .container-why h6 {
+    color: red;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+ }
+ 
+.rounded-pill-quote {
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+ 
+ } 
+
+ .rounded-pill-quote p {
+    color: red;
+    font-family: lato, sans-serif;
+    font-size: 12px; 
+ }
+
+
+.container-main {
+    gap: 1rem;
+    row-gap: 30rem;
+    padding-block: 0;
+    margin: 8%;
+
+}
+
+   
+   
+
+
+
+
+
+
+
+
+ /* .bg-color-container-reason-why {
+    background-color: red;
+ }
+
+
+ .container-reason-why {
+    padding: 10%;
+
+
+ }
+
+.btn-default {
+background-color: #4A3729;
+border-color: #FCE9DF;
+
+border-radius: 15%, 50%;
+
+}
+ .ui-why-one {
+    align-content: center;
+    text-align: center;
+    background-color: purple;
+
+    border-radius: 15%, 50%;
+ }
+
+ .ui-why-two {
+    align-content: center;
+    text-align: center;
+    background-color: yellow;
+ }
+
+ .ui-why-three {
+    align-content: center;
+    text-align: center;
+    background-color: powderblue;
+}
+
+.ui-why-four {
+    align-content: center;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.ui-why-five {
+
+}
+
+
+.ui-why-six {
+
+}
+
+.ui-why-seven {
+
+} */
