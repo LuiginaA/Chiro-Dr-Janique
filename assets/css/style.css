@@ -124,7 +124,7 @@ display: inline-block;
 
 
 /* ---------------------------------TopNav */
-  
+
  .topnav {
     padding-top: 2px;
     padding-bottom: 0px;
@@ -177,7 +177,7 @@ display: inline-block;
     font-size: medium;
     font-weight: 500;
     font-family: Merriweather, sans-serif;
-   
+
 }
 
 .navbar-toggler {
@@ -213,10 +213,6 @@ display: inline-block;
 
 }
 
-
-
-
-
 /* ---------------------------------Heading
 
 .header {
@@ -229,21 +225,6 @@ display: inline-block;
     text-align: center;
     font-style: italic;
 }
-
-.main-logo {
-    background: url("../images/logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 350px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    min-height: 120px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-} */
-
 
 
 /* ---------------------------------Button */
@@ -284,7 +265,7 @@ display: inline-block;
     font-size: 65px;
     margin-top: 40px;
     margin-bottom: 70px;
-    color: #854A14; 
+    color: #854A14;
     text-align: center;
 
 }
@@ -401,7 +382,7 @@ height: 120px;
     background-size: cover;
     width: 100%;
     min-height: 120px;
-   
+
 }
 
 /* .footer-general-sub {
@@ -440,19 +421,20 @@ height: 120px;
 .footer-p {
     font-size: 14px;
     text-align: center;
-    
+
 }
 
 
- 
+
 .footer-section-heading {
     font-family: Merriweather, sans-serif;
     font-size: 22px;
     font-style: italic;
     text-align: center;
     color: #854A14;
-    
-}    
+    padding-bottom: 1.5rem;
+    align-content: space-between;
+}
 
 
 .footer-info-item {
@@ -467,7 +449,7 @@ height: 120px;
     color: #854A14;
     width: 100%;
     margin-right: 5px;
-   
+
 }
 
 .footer-info-item-heading {
@@ -475,16 +457,17 @@ height: 120px;
     font-weight: 200;
     text-align: left;
     align-content: center;
-    padding-bottom: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
-}   
+}
 
 .footer i {
     display: contents;
     color: green;
     font-size: 20px;
     padding-top: 28px;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
     margin-top: 10px;
 
 
@@ -505,15 +488,16 @@ height: 120px;
 
 .footer ul {
     text-align: left;
+
 }
 
 
 
-/* 
-.download i, 
+/*
+.download i,
 .social-links {
     padding-bottom: 25px;
-    
+
 
 }
 
@@ -965,84 +949,258 @@ width: 100%;
 
  /*-------------------------------- Why Choose Section */
 
-.container-main {
-    background-color: black;
-    background-size: cover;
-    padding-left: 0;
-    padding-right: 0;
-
-}
-
 
 .bg-color-why {
-    background-color: #C18963;
+    background-color: #000;
 
 }
 
-.text-bg-card-one span {
-    background-color: #D1C7B8;
+
+.card {
+    background-color:#000;
+    margin: 1rem;
+
 }
 
 
-    /* height: 100%;
-    width: 100%; 
-    background-size: cover; 
+.card-header {
+    padding-top: 2px;
+    padding-bottom: 1px;
+
+}
+
+
+.text-bg-card-one {
+    background-color: #854A14;
+    margin: 10;
+   
+}
+.rounded-pill-one {
+    color: #EBCABA;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+ 
+.text-bg-card-two {
+    background-color: #EDE6DE;
+
+}
+
+.rounded-pill-two {
+    color:#854A14;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-three {
+    background-color:#EBCABA;
+
+}
+
+.rounded-pill-three {
+    color: #854A14;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-four {
+    background-color: #4A3729;
+
+}
+
+.rounded-pill-four {
+    color: #EDE6DE;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-five {
+    background-color: #46433A;
+
+}
+
+.rounded-pill-five {
+    color: #EADACB;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-six {
+    background-color:#EADACB;
+
+}
+
+.rounded-pill-six {
+    color: #854A14;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-seven {
+    background-color: #854A14;
+}
+
+.rounded-pill-seven {
+    color: #DBD4CC;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-eight {
+    background-color: #DBD4CC;
+
+}
+
+.rounded-pill-eight {
+    color: #854A14;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+.text-bg-card-nine {
+    background-color:#765B48;
+
+}
+
+.rounded-pill-nine {
+    color: #FCE9DF;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-ten {
+    background-color:#BFBCB5;
+
+}
+
+.rounded-pill-ten {
+    color: #4A3729;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+.text-bg-card-eleven {
+    background-color: #f4d9d9;
+
+}
+
+.rounded-pill-eleven {
+    color: #854A14;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+
+/* .text-bg-card-twelve {
+    background-color: #D9C8B7;
+}
+
+.rounded-pill-twelve {
+    color: #FCE9DF;
+
+}  */
+
+.blockquote {
+    padding: 5px;
+    padding-right: 10px;
+    margin-right: 1.5rem;
+
+}
+
+
+.text-bg-color {
+    background-color:#46433A;
+
+} 
+
+
+/* .card-body-quote {
+    height: 70%;
+    width: 70%;
+    background-size: cover;
     margin: 0;
-    padding: 2px;
+    padding: 10px;
 } */
 
-/* .container-why {
-    margin: 40px;
-    text-align: center;
-    padding: 25px;
-    border-spacing: 10%
-}  */
- .container-why h2, h4 {
-    align-content: space-between;
-    color: #FCE9DF;
+.blockquote-footer {
+    font-size: 20px;
+
+}
+
+ .container-why h4 {
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    color: #CCB0A2;
     font-family: merriweather, sans-serif;
-    font-size: 36px;
-   
+    font-size: 28px;
+    padding-top: 5px;
+
  }
+
 
  .container-why h5 {
     color: #FCE9DF;
     font-family: lato, sans-serif;
     font-size: 26px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
  }
 
- 
+
  .container-why h6 {
-    color: red;
+    color:#CCB0A2;
     font-family: lato, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    letter-spacing: 3px;
  }
- 
+
 .rounded-pill-quote {
-    padding-top: 1%;
+    padding-top: 1.5%;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 1%;
- 
- } 
+
+
+ }
 
  .rounded-pill-quote p {
-    color: red;
+    color: #E9D5CA;
     font-family: lato, sans-serif;
-    font-size: 12px; 
+    font-size: 20px;
+    letter-spacing: 2px;
+ }
+
+ .blockquote-footer {
+    color:#F3ECE4 ;
+    padding-top: 1%;
+    padding-left: 60%;
+    font-weight: 400;
  }
 
 
-.container-main {
-    gap: 1rem;
-    row-gap: 30rem;
-    padding-block: 0;
-    margin: 8%;
 
-}
 
-   
-   
+
 
 
 
