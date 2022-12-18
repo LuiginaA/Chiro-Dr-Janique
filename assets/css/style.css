@@ -948,18 +948,27 @@ width: 100%;
 }
 
  /*-------------------------------- Why Choose Section */
+ .container-bg{
+    background-color:#fafafa;
+ }
 
+ .bg-color-why {
+    background-color:#000000;
 
-.bg-color-why {
-    background-color: #000;
+}
+
+.container-why {
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 5%;
+    margin-right: 3%;
 
 }
 
 
 .card {
-    background-color:#000;
-    margin: 1rem;
-
+    background-color:#000000;
+  
 }
 
 
@@ -971,12 +980,17 @@ width: 100%;
 
 
 .text-bg-card-one {
-    background-color: #854A14;
+    background-color: #f4d9d9;
     margin: 10;
    
 }
+
+.rounded-pill {
+    align-content: center;
+}
+
 .rounded-pill-one {
-    color: #EBCABA;
+    color: #854A14;
     font-size: 26px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -1032,7 +1046,7 @@ width: 100%;
     font-size: 26px;
     font-weight: 500;
     letter-spacing: 2px;
-    
+ 
 }
 
 .text-bg-card-six {
@@ -1081,7 +1095,8 @@ width: 100%;
     color: #FCE9DF;
     font-size: 26px;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+    text-align: center;
     
 }
 
@@ -1098,54 +1113,11 @@ width: 100%;
     
 }
 
-.text-bg-card-eleven {
-    background-color: #f4d9d9;
-
-}
-
-.rounded-pill-eleven {
-    color: #854A14;
-    font-size: 26px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    
-}
-
-/* .text-bg-card-twelve {
-    background-color: #D9C8B7;
-}
-
-.rounded-pill-twelve {
-    color: #FCE9DF;
-
-}  */
-
-.blockquote {
-    padding: 5px;
-    padding-right: 10px;
-    margin-right: 1.5rem;
-
-}
-
-
 .text-bg-color {
     background-color:#46433A;
 
 } 
 
-
-/* .card-body-quote {
-    height: 70%;
-    width: 70%;
-    background-size: cover;
-    margin: 0;
-    padding: 10px;
-} */
-
-.blockquote-footer {
-    font-size: 20px;
-
-}
 
  .container-why h4 {
     word-spacing: 10px;
@@ -1174,20 +1146,14 @@ width: 100%;
     letter-spacing: 3px;
  }
 
-.rounded-pill-quote {
-    padding-top: 1.5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 1%;
 
-
- }
 
  .rounded-pill-quote p {
     color: #E9D5CA;
     font-family: lato, sans-serif;
     font-size: 20px;
-    letter-spacing: 2px;
+    font-weight: 500;
+    letter-spacing: 1px;
  }
 
  .blockquote-footer {
@@ -1195,6 +1161,8 @@ width: 100%;
     padding-top: 1%;
     padding-left: 60%;
     font-weight: 400;
+    font-size: 18px;
+
  }
 
 
