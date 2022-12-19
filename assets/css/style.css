@@ -1233,3 +1233,183 @@ border-radius: 15%, 50%;
 .ui-why-seven {
 
 } */
+
+
+ /*-------------------------------- Gallery Why Section */
+
+.container-whygallery-bg {
+    background-color: #FCE9DF;
+}
+
+.container-whygallery-bg {
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+  
+}
+
+.container-whygal-bg {
+    background-color: #000000;
+}
+
+.container-whygal-bg {
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 10%;
+}
+
+
+.bg-color-gal-container {
+    background-color: #CCB0A2;
+  
+} 
+  
+.bg-color-gal-container {
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 2%;
+}
+
+.container-why-image {
+    background: url("../images/whygalbg.jpg") no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+     
+}
+
+.bg-greet-grid {
+    background: url("../images/greet.jpg") no-repeat center center;
+    background-size: cover;
+    height: 450px;
+
+} 
+  
+
+.bg-greet-grid {
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #46433A;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+}
+
+
+
+.bgfun-grid {
+    background: url("../images/janfun.jpg") no-repeat center center;
+    background-size: cover;
+    height: 450px;
+
+} 
+
+
+#janfun {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+} 
+
+
+.bgfun-grid {
+    width: 400px;
+    height: 400px;
+    float: right;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #46433A;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+} 
+
+
+      
+/* .bg-greet-container {
+    align-content: space-around;
+} */
+
+/*     
+#bglogo {
+    background: url("../images/bglogo.png") no-repeat left;
+    height: 450px;
+
+} 
+
+
+
+#bglogo-grid {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+} 
+
+.bglogo-grid {
+    width: 400px;
+    height: 400px;
+    float: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #46433A;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+} 
+
+.bglogo-grid {
+    background-color: #fefefe;
+} 
+
+.bgimage-container,
+.bglogo-grid {
+    padding-top: ;
+    
+} */
+
+
+
+    
+
+/* 
+#left-about {
+    padding-top: 50px;
+    width: 23%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 40px;
+    width: 23%;
+    float: right;
+  }
+
+#center-about {
+    width: 50%;
+    margin: 0 auto;
+
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
