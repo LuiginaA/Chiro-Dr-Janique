@@ -134,6 +134,7 @@ display: inline-block;
 
 .topnav ul {
     text-align: center;
+    list-style-type: none;
 
 }
 
