@@ -16,6 +16,7 @@
     background-color: #FCE9DF;
 }
 
+
 /* .ui-menu-color-home {
     background-color: #EDE6DE;
 }
@@ -171,6 +172,20 @@ display: inline-block;
 }  */
 /* ---------------------------------Navbar */
 
+/* .main-logo {
+    background: url("../images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}  */
+
 .main-logo {
     background: url("../images/logo.png");
     background-size: cover;
@@ -183,52 +198,41 @@ display: inline-block;
 }
 
 
-
-
-
-/* ---------------------------------Navbar */
-
-/* .navbar {
-    margin: 0;
-    color: #4A3729;
-    font-size: medium;
-    font-weight: 500;
-    font-family: Merriweather, sans-serif;
-
-}
-
-.navbar-toggler {
+navbar-toggler {
     color: #4A3729;
     font-size: 12px;
     font-style: bold;
     font-weight: 700;
     font-family: Merriweather, sans-serif;
 
-}
+} 
 
+#navbarNav {
+    justify-content: space-around;
+}
+ 
 .navbar {
     padding-top: 0;
     text-align: center;
     font-style: italic;
+    color: #4A3729;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Merriweather, sans-serif;
+
+} 
+.nav-item li i {
+    padding-top: 28px;
+    display: contents;
+    color: #854A14;
+    font-size: 26px;
+    line-height: 2;
 }
 
-.main-logo {
-    background: url("../images/logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 350px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    min-height: 120px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
 
 .nav-item li {
 
-} */
+}  
 
 /* ---------------------------------Heading
 
@@ -592,7 +596,7 @@ height: 120px;
     font-family: Merriweather, sans-serif;
     font-weight: 500;
     font-size: 28px;
-    color: #4A3729;
+    color: #4A3729; 
 
 }
 
@@ -602,11 +606,11 @@ margin: 0;
 }
 
 #care {
-    background: url("../images/care.jpg") no-repeat center center;
+    background: url("../images/xray.jpg") no-repeat center center;
     height: 120vh;
     width: cover;
     overflow: hidden;
-    opacity: 0.5;
+
 
 }
 
@@ -617,7 +621,7 @@ margin: 0;
     padding-left: 0;
     padding-right: 2px;
     margin-left: 35%;
-    margin-top: 5px;
+    margin-top: 10%;
 
 }
 
