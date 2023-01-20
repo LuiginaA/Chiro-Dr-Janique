@@ -1,51 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+/* font-family: 'Merriweather', serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
+
+/* font-family: 'Lato', sans-serif; */
 
 
 /* --------------------------------- Topnav header Button Footer Colors */
+
+
 
 .bg-color-topnav {
     background-color: #D9C8B7;
 }
 
+.navbar-bg-color {
+    background-color: #EDE6DE;
+} 
+
+
 .bg-color-header {
     background-color: #FCE9DF;
-}
-
-
-/* .ui-menu-color-home {
-    background-color: #EDE6DE;
-}
-
-.ui-menu-color-whydrj {
-    background-color: #DBD4CC;
-}
-
-.ui-menu-color-treatments {
-    background-color: #EDE6DE;
-}
-
-.ui-menu-color-chiropractor btn {
-    background-color: #DBD4CC;
-}
-
-.ui-menu-color-first-visit {
-    background-color: #EDE6DE;
-}
-
-.ui-menu-color-condiions {
-    background-color:#DBD4CC;
-}
-.ui-menu-color-contact {
-    background-color:#EDE6DE;
-} */
-
-.bg-color-navbar {
-    background-color:#EDE6DE
 }
 
 .ui-menu-color-form {
@@ -56,14 +32,22 @@
     background-color:#854A14;
 }
 
+
+.bg-color-footer-frame {
+    background-color: #24522E;
+}
+
 .bg-color-footer {
     background-color:#D1C7B8;
 }
 
-/* .bg-color-modal {
-    background-color: #FCE9DF;
-}  */
+
 /* --------------------------------- Title About Colors */
+
+
+.bg-color-name-title-frame {
+    background-color: #D9C8B7;
+}
 
 .bg-color-name-title {
     background-color:#F4ECE6;
@@ -115,20 +99,16 @@ padding: 0;
 
 }
 
-.inline-block {
-display: inline-block;
-}
-
-/* .row-table {
-    display: table;
-} */
-
+/* .inline-block {
+    display: inline-block;
+    }  */
 
 /* ---------------------------------TopNav */
 
  .topnav {
     padding-top: 2px;
     padding-bottom: 0px;
+    padding-right: 20px;
     margin: 0;
 
 }
@@ -146,7 +126,6 @@ display: inline-block;
 
 }
 
-
 .topnav-text-end a {
     padding-left: 5px;
     color: #854A14;
@@ -161,80 +140,87 @@ display: inline-block;
 
 /* ---------------------------------TopNav Button */
 
-/* button[type="submit"] {
+/* .button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     margin-right: 10px;
-    color: #DBD4CC;
+    color: #000;
     background-color: #854A14;
     border: none;
 
-}  */
+}    */
+
 /* ---------------------------------Navbar */
 
-/* .main-logo {
-    background: url("../images/logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 350px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    min-height: 120px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}  */
+
+.bg-navbar-frame {
+
+border-style: solid;
+border-width: 33px;
+border-color: #D9C8B7; 
+}
+
 
 .main-logo {
     background: url("../images/logo.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 250px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    
-}
-
-
-navbar-toggler {
-    color: #4A3729;
-    font-size: 12px;
-    font-style: bold;
-    font-weight: 700;
-    font-family: Merriweather, sans-serif;
-
-} 
-
-#navbarNav {
-    justify-content: space-around;
-}
- 
-.navbar {
-    padding-top: 0;
-    text-align: center;
-    font-style: italic;
-    color: #4A3729;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: Merriweather, sans-serif;
-
-} 
-.nav-item li i {
-    padding-top: 28px;
-    display: contents;
-    color: #854A14;
-    font-size: 26px;
-    line-height: 2;
-}
-
-
-.nav-item li {
+    background-repeat: no-repeat center center;
+    height: 350px;
+    width: 350px;
 
 }  
 
-/* ---------------------------------Heading
+.navbar-brand {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    justify-content: center; 
+}    
+
+.navbar-nav {
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 15px;
+ 
+}
+
+.nav-item  { 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+} 
+
+.navbar li a {
+    text-align: center;
+    font-style: italic;
+    color: #854A14;
+    font-size: 18px;
+    font-style: bold;
+    font-family: Merriweather, sans-serif;
+ 
+} 
+
+.nav-item  i {
+    color: #854A14;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* ---------------------------------Heading */
 
 .header {
     margin: 0;
@@ -242,7 +228,7 @@ navbar-toggler {
 }
 
 .heading {
-    padding-top: 0;
+    padding-top: 20px;
     text-align: center;
     font-style: italic;
 }
@@ -269,6 +255,7 @@ navbar-toggler {
     margin-top: 25px;
     text-align: center;
     color: #854A14;
+    padding-top: 25px;
 
 }
 
@@ -301,17 +288,6 @@ navbar-toggler {
     padding-left: 2px;
     padding-right: 2px;
 
-}
-
-#nav {
-    margin: 2%;
-    align-items: right;
-}
-
-#nav li {
-    font-size: 12px;
-    padding: 5px;
-    margin: 0;
 }
 
 .menuitem {
@@ -399,12 +375,12 @@ height: 120px;
 
 /* ---------------------------------Footer */
 
-.container-footer {
+/* .container-footer {
     background-size: cover;
     width: 100%;
     min-height: 120px;
 
-}
+} */
 
 /* .footer-general-sub {
     padding-top: 5px;
@@ -423,9 +399,7 @@ height: 120px;
     height: 250px;
     width: 250px;
     margin-top: 30px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+
 }
 
 .footer-section-name {
@@ -1263,16 +1237,6 @@ margin-bottom: 5%;
 
 
 
- 
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1347,6 +1311,8 @@ border-radius: 15%, 50%;
     padding-bottom: 5%;
   
 }
+
+
 
 .container-whygal-bg {
     background-color: #000000;
@@ -1437,7 +1403,6 @@ border-radius: 15%, 50%;
 
 
 
-
       
 /* .bg-greet-container {
     align-content: space-around;
@@ -1504,6 +1469,203 @@ border-radius: 15%, 50%;
     margin: 0 auto;
 
   } */
+ 
+
+/*-------------------------------- Main Footer Section */
+/* *{
+   margin: 0; 
+   padding: 0; 
+   box-sizing: border-box;   
+  
+}  */
+
+
+.main-footer-container {
+    background-color: #f3ECE4; 
+    background-size: cover;
+    width: 100%;
+    min-height: 120px;
+    line-height: 1.5;
+    padding-top: 2%;
+}
+
+.main-footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-footer ul {
+    list-style: none;
+
+}
+
+.main-footer-header h4 {
+    font-size: 20px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;  
+    color: #754E3E;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    position: relative;
+    
+} 
+
+.main-footer-header p {
+    font-size: 14px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;  
+    color: #754E3E;
+    margin-bottom: 35px;
+    position: relative;
+    letter-spacing: 2px;
+} 
+
+
+
+.main-footer {
+    /* background-color: #24262b; */
+    padding-top: 15%;
+}
+
+
+.main-footer-logo {
+    background: url("../images/footerlogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    margin-top: -15px;
+    
+}
+
+.main-footer-col {
+    width: 15%;
+    padding: 0 10px;
+    }
+
+
+.main-footer h4 {
+    font-size: 15px;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-weight: 600; 
+    font-style: bold; 
+    color: #754E3E;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    position: relative;
+    
+} 
+
+
+/* .main-footer-col h4 ::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -10px;
+background-color: aqua;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+} */
+
+/* 
+.main-footer-contact {
+    font-size: 16px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;  
+    color: #ffffff;
+    margin-bottom: 35px;
+    position: relative;
+    text-transform: none;
+
+} */
+
+/* .main-footer-contact h4 {
+    font-size: 16px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 600;  
+    color: #754E3E;
+    font-style: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    position: relative;
+
+    
+}   */
+
+
+/* .main-footer-contact ol {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+} */
+
+.main-footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.main-footer-col ul li a {
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #f3ece4;
+    text-decoration: none;
+    font-weight: 500;
+    color: #754E3E;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+}
+
+
+.main-footer-col ul li a:hover {
+    color: #211914;
+    padding-left: 12px;
+}
+
+
+.main-footer .social-links a {
+   display: inline-block;
+   height: 40px;
+   width: 40px;
+   background-color: rgba(255, 255, 255, 0.2);
+   margin: 0, 10px, 10px 0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color: #754E3E;
+   transition: all 0.5s ease;
+
+}
+
+.main-footer .social-links a:hover {
+    color: #f3ECE4;
+    background-color: #754E3E;
+}
+
+/*-------------------------------- Responsive Main Footer Section */
+
+
+@media(max-width: 767px){
+.main-footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+}
+
+@media(max-width: 574px){
+.main-footer-col {
+    width: 100%;
+    
+    }
+    }
 
 
 
@@ -1517,5 +1679,287 @@ border-radius: 15%, 50%;
 
 
 
+   /* --------------------------------- Skills and Attributes */
+
+.border-title {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #24522E;
+    border-radius: 10%;
+    padding: 30px;
+    margin: 30px;
+    background-color: #E0E4EF;
+    opacity: 50%;
+}
 
 
+.container-title h3 {
+    color: #183E0C;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;   
+    font-weight: 800;
+    font-size: 44px;
+    margin-bottom: 5px;
+    
+}
+
+
+ .skill-one-container {
+    background-size: cover;
+    width: 100%;
+    justify-content: left;
+    min-height: 120px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+ } 
+
+
+.skill-one h4 {
+    color: #; 
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;  
+    font-style: bold; 
+    margin-bottom: 5px;
+     
+}
+
+.skill-one p {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500; 
+    font-style: bold;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+}  
+
+.skill-two-container {
+    background-size: cover;
+    width: 100%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+ 
+}  
+
+
+.skill-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-three-container {
+    background-size: cover;
+    width: 100%;
+    min-height: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}  
+
+
+.skill-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.skill-three h4 {
+    color: #000; 
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;  
+    font-style: bold; 
+    margin-bottom: 5px;
+     
+}
+
+.skill-three ul {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500; 
+    font-style: bold;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+    padding-bottom: 8px;   
+
+}
+
+
+/* --------------------------------- Conditions */
+
+.bg-color-condition { 
+    background-color: red;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ 
+
+}
+
+.g-col-1,
+.g-col-2,
+.g-col-3,
+.g-col-4{
+display: grid;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+
+.conditionone {
+        background: url("../images/foot.jpg");  
+        background-size: cover;
+        background-repeat: no-repeat center center;
+        height: 100%;
+        width: 100%; 
+        border-top-right-radius: 75%;
+        border-top-left-radius: 75%;
+     
+
+       /* margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 20px; 
+          */
+    } 
+    
+.conditionone {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+ 
+}    
+
+
+.conditionone h5 {
+    font-size: 28px;
+    text-align: center;
+
+ 
+    color: purple;
+    margin: 5px;
+    background-color: #7F5443;
+}
+    
+.conditiontwo {
+    background: url("../images/shoulder.jpg");  
+    background-size: cover;
+    background-repeat: no-repeat center center;
+    height: 100%;
+    width: 100%; 
+    border-top-right-radius: 75%;
+    border-top-left-radius: 75%;
+     
+} 
+
+.conditiontwo {
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+justify-content: flex-end;
+text-align: center;
+width: 300px;
+height: 300px;
+
+}     
+
+
+.conditiontwo h5 {
+font-size: 28px;
+text-align: center;
+
+
+color: purple;
+margin: 5px;
+background-color: #7F5443;
+}
+
+
+.row-conditions {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+
+
+
+
+         
+/* @media screen and (max-width: 1393px) {
+    #about {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        
+            }
+        }  */
+
+
+
+
+
+/* .ui-menu-color-home {
+    background-color: #EDE6DE;
+}
+
+.ui-menu-color-whydrj {
+    background-color: #DBD4CC;
+}
+
+.ui-menu-color-treatments {
+    background-color: #EDE6DE;
+}
+
+.ui-menu-color-chiropractor btn {
+    background-color: #DBD4CC;
+}
+
+.ui-menu-color-first-visit {
+    background-color: #EDE6DE;
+}
+
+.ui-menu-color-condiions {
+    background-color:#DBD4CC;
+}
+.ui-menu-color-contact {
+    background-color:#EDE6DE;
+} */
+
+/* .bg-color-modal {
+    background-color: #FCE9DF;
+}  */
+
+
+/* .inline-block {
+display: inline-block;
+}  */
+
+/* .row-table {
+    display: table;
+}  */
+
+/* 
+.navbar-collapse {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    background-size: cover;
+    
+    }  
