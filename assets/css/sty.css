@@ -596,20 +596,23 @@ ul.navbar-nav {
 }
 
 /* ---------------------------------Why Choose Dr Janique Section */
-/* .choose-cont {
+
+.choose-cont {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center; 
-    margin: 2rem 0;  
+    margin: 1rem 0;  
     padding-top: 3rem;
     padding-bottom: 50px;
     background-color: beige;
     background-color: #000;
+    background-color: #fefefe;
 }
 
 .why-heading h2 {
     color: #FFE4E1;
+    color: #000;
     text-align: center;
     font-family: Merriweather, sans-serif;
     font-size: 28px;
@@ -620,13 +623,15 @@ ul.navbar-nav {
 }
 
 .why-paragraph p {
-    line-height: 2rem;
+    line-height: 2rem; 
     padding-top: 10px;
     font-family:'Merriweather', serif;
     font-size: 18px; 
     font-style: italic;
     text-align: center;
     color: #FFE4E1;
+    color: #000;
+  
 }
 
 .why-paragraph h6 {
@@ -638,7 +643,9 @@ ul.navbar-nav {
     font-style: italic;
     text-align: center;
     color: #FFE4E1;
-}  */
+    color: #000;
+   
+} 
 
 
 /* ---------------------------------Why Choose Dr Janique Reason Section */
