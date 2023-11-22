@@ -715,7 +715,8 @@ ul.navbar-nav {
     background: #232949;
     border-radius: 15px;
     border-top-left-radius: 0;
-    padding: 0 35px; 
+    /* padding: 0 35px;  */
+    padding-bottom: 30px; 
 }
 
 .card-whyInfo .contentWhy ul {
