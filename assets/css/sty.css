@@ -24,8 +24,8 @@ html {
 }
 
 body {
-    min-height: 1000px;
-    background-color: #fff;
+    min-height: 600px;
+    background-color: #fefefe;
 
 }  
 
@@ -39,7 +39,7 @@ body {
     border-style: solid;
     border-bottom: none;
     border-width: 33px;
-    border-color: #000;    
+    border-color: #fefefe;    
 }
 
 .bg-color {
@@ -54,8 +54,7 @@ body {
     justify-self: center;
     align-self: center;
     margin: 20px;
-
-  
+    border-radius: 25px;
 }
 
 .containerNav {
@@ -77,6 +76,13 @@ body {
     width: 100%;
     margin-right: 200px;
 }
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
 
 h3.title, 
 h4.name {
@@ -162,8 +168,6 @@ h5.appoint  {
 
 ul.navbar-nav {
     width: 90%;
-   
-
 }
 
 .nav-item a {
@@ -203,7 +207,6 @@ ul.navbar-nav {
     } 
 }
 
-
 @media (max-width: 991px) {
     
     .outerframe {
@@ -212,7 +215,7 @@ ul.navbar-nav {
         border-style: solid;
         border-bottom: none;
         border-width: 33px;
-        border-color: #000;  
+        border-color: #fefefe; 
     }
 
     .containerNav {
@@ -255,7 +258,6 @@ ul.navbar-nav {
         text-decoration: none;
         list-style-type: none;
         text-align: center;
-
     } 
     
     .navHeading .title {
@@ -341,7 +343,6 @@ ul.navbar-nav {
         margin-left: 13px;
         margin-bottom: 8px;
         margin-top: 10px;
-     
     }
     
     h5.appoint {
@@ -376,20 +377,46 @@ ul.navbar-nav {
 /* ----- Quote Section ----- */
 
 
-.bg-color-quote {
-    background: #000;
+.quote-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 10px;
 }
 
+.quote-con {
+    background: linear-gradient(90deg, rgb(255, 234, 228) 40%, rgb(250, 248, 246) 40%);
+}
+
+.quote-con {
+    position: relative;
+    width: 100%;
+    margin-left: 10px; 
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 25px; 
+
+}
 
 .cont-headingQuote {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 100%;
-    padding-top: 340px;
+    width: 80%;
+    padding-top: 280px;
     margin-bottom: 50px;
     padding-bottom: 50px;
+    margin-left: 120px;  
 }
+
+.heading-quote {
+    box-shadow: 1.5rem 1.5rem 1rem rgba(0, 0, 0, .9);
+}
+
 
 .quoteCont {
     display: flex;
@@ -399,25 +426,24 @@ ul.navbar-nav {
     justify-self: center;
     align-self: center;
     justify-content: center;
-    align-content: center; 
+    align-content: center;  
 }
 
 .heading-quote {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    background-color:#f7efe3 ;
-    /* background-color: #F7F1E3; */
+    width: 100%;
+    background-color: #232949;
     justify-content: center;
     align-content: center;
     text-align: center; 
-   
-
+    border-radius: 25px;
 }
 
 .heading-quote h3 {
     text-align: center;
     color: #000;
+    color: #fefefe;
     font-family: Merriweather, sans-serif;
     font-size: 28px;
     font-weight: 600;
@@ -431,10 +457,12 @@ ul.navbar-nav {
     line-height: 2rem;
     padding-bottom: 20px;
     width: 100%;  
+    
 } 
 
 .paragraph-quote {
     color:#000;
+    color: #fefefe;
     font-family: Merriweather, sans-serif;
     font-style: italic;
     font-size: 16px;
@@ -446,17 +474,98 @@ ul.navbar-nav {
     padding-bottom: 30px
 } 
 
+.quote_image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 1.5rem 1.5rem 1rem rgba(0, 0, 0, .9);
+    border-radius: 25px; 
+    margin-left: 80px; 
+}
+
+
+
 /* -----  Media Queries Quote Section ----- */
 
 @media (max-width: 991px) {
 
+    .quote-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .quote-con {
+        position: relative;
+        width: 100%;
+        margin-left: -50px; 
+        margin-right: -120px;
+        justify-content: center;
+        align-items: center;  
+        border-radius: 25px; 
+    
+    }
+
+    .heading-quote {
+        display: flex;
+        flex-direction: column;
+        background-color: #232949;
+        justify-content: left;
+        align-content: left;
+        text-align: center; 
+        border-radius: 25px;
+        margin-left: -80px;
+    }
+
+    .quoteCont {
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .quote_image img {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: -180px;
+    }
+
+}
+
+@media (max-width: 448px) {
+
+    .quote-container {
+       width: 80%;
+       margin-left: -15px;
+       margin-right: -180px;
+    }
+
+    .cont-headingQuote {
+     
+        width: 100%;
+        padding-top: 280px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        margin-right: -120px;
+    }
+
+    .quote-con {
+        background: #fefefe;
+    }
+
     .cont-headingQuote {
         align-items: center;
         justify-content: center;
-        margin-bottom: 80px; 
     } 
 
+    .quote_image img {
+        width: 100%;
+        margin-left: -180px;
+        margin-top: 40px;
+     
+    }
+
 }
+
+
 
 /* ----- About Section ----- */
 
