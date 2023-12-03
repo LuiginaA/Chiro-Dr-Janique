@@ -29,14 +29,16 @@ body {
 
 /* ----- Fixed Navbar Section ----- */
 
-.outerframe {
+/* outerframe {
     width: 100%;
+    max-height: 1000vh;
     border: 15px;
     border-style: solid;
     border-bottom: none;
     border-width: 33px;
-    border-color: #fefefe;    
-}
+    border-color: #fefefe; 
+    border-color: #FFEAE6;  
+} */
 
 .bg-color {
     background: #FFEAE6;
@@ -44,10 +46,8 @@ body {
 
 .navbar {
     text-decoration: none;
-    width: 95%;
     align-items: center;
     justify-content: center;
-    margin: 0px 0px 10px 40px;
     border-radius: 25px;
 }
 
@@ -57,8 +57,9 @@ body {
     text-decoration: none;
     align-items: center;
     justify-content: space-between;
-    width: 95%;
-    margin: 20px;
+    width: 90%;
+    margin: 10px;
+    padding: 0px;   
 }
 
 .navHeading  {
@@ -201,18 +202,21 @@ ul.navbar-nav {
     .sidebar{
         background-color: rgba(255, 234, 228, 0.9);
         backdrop-filter: blur(10px);
-    } 
+    }
+
 }
 
 @media (max-width: 991px) {
-
     .containerNav {
-        width: 80%; 
+        width: 100%; 
     }
     
     .navbar {
-        width: 80%;
-        margin: 0px 0px 10px 20px;
+        width: 96%;
+        justify-content: center;
+        align-items: center;
+        margin-left: px;
+        margin-top: 20px;
     }
 
     .navbar-brand {
@@ -220,15 +224,17 @@ ul.navbar-nav {
     } 
 
     .navHeading  {
-        margin-right: 5px;
-        padding-right: 5px; 
+        margin-right: px;
+        padding-right: px; 
     }
 
     .sidebar{
         background-color: rgba(255, 234, 228, 0.9);
         backdrop-filter: blur(10px); 
     } 
+
 }
+
 /* 
 @media (max-width: 600px) {
     .sidebar{
@@ -272,8 +278,9 @@ ul.navbar-nav {
 
 @media (max-width: 480px) {
     .navbar {
-        width: 85%;
+        width: 90%;
         margin-top: 5px;
+        margin-left: 5px;
     }
     
     .navbar-brand {
@@ -331,13 +338,9 @@ ul.navbar-nav {
 
 .quote-container {
     display: flex;
-    flex-wrap: nowrap;
-    width: 96%;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    margin-left: 30px;
-    margin-bottom: -10px; 
 }
 
 .quote-con {
@@ -346,8 +349,6 @@ ul.navbar-nav {
 
 .quote-con {
     width: 100%;
-    margin-left: 10px; 
-    margin-right: 5px;
     justify-content: center;
     align-items: center;  
     border-radius: 25px; 
@@ -355,13 +356,13 @@ ul.navbar-nav {
 
 .cont-headingQuote {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 80%;
-    padding-top: 320px;
+    width: 90%; 
+    padding-top: 320px; 
     margin-bottom: 50px;
     padding-bottom: 50px;
-    margin-left: 40px;  
+    margin-left: 120px;  
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .heading-quote {
@@ -370,11 +371,12 @@ ul.navbar-nav {
 
 .quoteCont {
     display: flex;
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 300px;
     text-align: center;
     justify-content: center;
     align-content: center;  
+    padding-top: 0px; 
 }
 
 .con_quote {
@@ -393,6 +395,9 @@ ul.navbar-nav {
     text-align: center; 
     border-radius: 25px;
     margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .heading-quote h3 {
@@ -423,28 +428,29 @@ ul.navbar-nav {
 } 
 
 .quote_image img {
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 300px;
     object-fit: cover;
     box-shadow: 1.5rem 1.5rem 1rem rgba(0, 0, 0, .9);
     border-radius: 25px; 
-    margin-left: 80px; 
-    margin-top: 45px;
-    vertical-align: middle;
+    margin-left: 30px; 
+    margin-top: 10px;
+    margin-bottom: 20px; 
 }
 
-
 /* -----  Media Queries Hero Quote Section ----- */
-
 
 @media (max-width: 991px) {
     .quote-container {
         flex-direction: column;
-        width: 80%;
-        padding-bottom: 150px;
+        width: 100%;
+        padding-bottom: 20px;
     }
 
     .quote-con {
+        width: 100%;
         margin-left: -8px; 
         margin-right: 12px; 
         min-height: 140vh;
@@ -458,22 +464,18 @@ ul.navbar-nav {
     .quoteCont {
         flex-direction: column; 
         width: 80%;
-        margin-top: 80px;
+        margin-top: 160px;
     }
 
     .con_quote {
         padding: 30px;
     }
     
-
     .quote_image img {
         flex-direction: column;
-        width: 70%;
-        margin-top: 20px; 
-        margin-right: 40px;
-        align-items: center;
-        justify-content: center;
-       
+        flex-wrap: nowrap;
+        margin-top: 50px; 
+        margin-left: 220px; 
     }
 
 }
@@ -483,6 +485,7 @@ ul.navbar-nav {
         flex-direction: column;
         flex-wrap: nowrap;
         width: 100%;
+        padding-bottom: 120px;
     }
 
     .quote-con {
@@ -490,7 +493,7 @@ ul.navbar-nav {
         align-items: center;
         justify-content: center;
         background: #fefefe;
-        min-height: 160vh;
+        min-height: 140vh;
         width: 100%;
     }
 
@@ -501,47 +504,52 @@ ul.navbar-nav {
         padding: 0;
     }
 
+    .heading-quote {
+        width: 100%;
+        margin-left: 18px;
+    }
+
     .cont-headingQuote {
         width: 100%;
         vertical-align: middle;
-        padding-top: 400px;  
+        padding-top: 350px;  
+        padding-bottom: 0px;
         margin-right: 0px;
-        margin-left: 5px;
+        margin-left: 25px;
     }
 
     .quote_image img {
-        width: 95%;
-        margin-top: 60px; 
-        object-fit: cover;
-        margin-left: 25px;
-        vertical-align: middle;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 30px; 
+        margin-left: 60px;
     }
 
 }
 
-
 /* ----- About Section ----- */
 
-
- .container-about {
+.container-about {
     display: flex;
-    width: 98%;
+    flex-wrap: nowrap;
+    width: 100%;
     align-items: center;
-    justify-content: center; 
-    margin: 2rem 0; 
-    padding-top: 3rem; 
+    justify-content: center;  
+    background-color: #FFEAE6;
+    border-radius: 25px;
 }
 
-.aboutHead {
-    text-align: center;
-    color: #000;
-    font-family: Merriweather, sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    font-style: italic;
-    letter-spacing: 1rem;
-    padding-top: 30px;
-    margin-top: 2rem;
+.about-frame {
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+    margin: 20px 90px 30px 90px;
+    min-height: 100vh;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 33px;
+    border-color: #232949; 
+    background-color: #fefefe; 
 }
 
 .about {
@@ -549,147 +557,141 @@ ul.navbar-nav {
     margin-left: 20px; 
     margin-right: -2px;  
     padding-bottom: 1rem;
-    margin-top: 5rem;
-    background-color: #FFEAE6;
+    margin-top: 3rem;
     border-radius: 25px;
-    background-color: aqua;
+    padding-top: 30px; 
+}
+
+h2.aboutHead {
+    color: #000;
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-top: 20px;
 }
 
 .image_about {
-    /* padding-left: 7rem;
-    padding-top: 3rem; */
     align-items: center;
     justify-content: center;
-    
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
+    padding-left: 6rem;
+    padding-top: 7.5rem;
     z-index: 1000;
 }
 
 .image_about img {
     border-radius: 25px;
-    box-shadow: 1.5rem 1.5rem 1rem rgba(0, 0, 0, .9);
-  
+    box-shadow: 1.5rem 1.5rem 1rem rgba(0, 0, 0, .9); 
 }
 
 .info {
-    padding: 2rem 2rem 5rem 7rem;
-    margin-top: 1rem; 
-    /* background-color: #FFEAE6; */
-
+    padding: 1rem 1rem 1rem 15rem;
+    margin-top: 1rem;  
 }
 
-.about .info h6 {
+.info h4 {
     color: #000;
-    font-size: 1.7rem;
-    font-weight: 600;  
+    font-family: Merriweather, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.35rem; 
 }
 
-.about .info p {
+.info p {
     color: #000;
-    font-size: 1rem;
+    font-size: 16px; 
     font-weight: 400;
-    margin: 2rem 0;  
+    margin: 2rem 0; 
 }
 
 /* ----- Media Queries Quote Section ----- */
 
 @media (max-width: 991px) {
-
-    .about .container-about {
+    .container-about {
+        display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
         width: 100%;
-   
     }
 
     .aboutHead {
-        width: 100%;
-        padding-right: -1000px;
- 
+        align-self: center;
+        justify-self: center;
+        padding-left: 45px;
     }
 
-    .about .image_about {
-        padding-left: 0;
+    .about-frame {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .image_about {
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding-left: 195px; 
         padding-top: 2rem;
-        width: 350px;
-        height: 350px;
-        z-index: 1000;
+        padding-bottom: 25rem;
     }
     
-    .about .image_about img {
-        box-shadow: 1.5rem 1.5rem 0 1rem rgba(0, 0, 0, .9);
-        border-radius: 25px;   
-    }
-
-    .about .info {
-        padding: 1rem 1rem 1rem 3rem;
-        margin-top: 1rem;
-        /* background-color: #FFEAE6;    */
-    }
+    .info {
+        width: 95%;
+        padding: 8rem 1rem 1rem 3rem;
+        margin-top: 1rem;  
+        line-height: 1.55rem;
+    } 
 
 }
 
 @media (max-width: 480px) {
-    .about .container-about {
-        width: 100%;
-        align-items: center;
-        justify-content: center;  
-
+    .about-frame {
+        width: 90%;
+        border-width: 25px;
+        border-color: #232949;   
     }
 
     .aboutHead {
-        text-align: center;
-        color: #000;
-        font-family: Merriweather, sans-serif;
-        font-size: 40px;
-        font-weight: 600;
-        font-style: italic;
-        letter-spacing: 1rem;
-        padding-top: 20px;
-        margin-top: 1rem;
+        align-self: center;
+        justify-self: center;
+        padding-left: 45px;
     }
-    
+
     .about {
         width: 100%;
         min-height: 100vh;
-        margin-left: 20px; 
-        padding-left: 10px;
-
+        margin-left: 30px; 
         padding-bottom: 1rem;
         margin-top: 5rem;
-        /* background-color: #FFEAE6; */
         border-radius: 25px;
     }
     
-
-
-    .about .image_about {
-        /* padding-left: 4.5rem; */
-        padding-top: 2rem;
-        /* width: 300px;
-        height: 300px; */
+    .image_about {
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 2.5rem 0 2.5rem;
         z-index: 1000;
     }
     
-    .about .image_about img {
-        width: 350px;
-        height: 350px; 
+    .image_about img {
+        width: 275px;
+        height: 300px;
         align-items: center;
-    justify-content: center;
-    margin-left: 1rem;
+        justify-content: center; 
     }
 
-    .about .info {
-        padding: 5rem 2rem 1rem 4rem;
-        margin-top: .1rem;
-        /* background-color: #FFE4E1;   */
+    .info {
+        padding: .5rem 2rem 0 4rem;
         width: 100%; 
     }
 
 }
 
 /* ---------------------------------Why Choose Dr Janique Section */
-
 
 .bg-color-why {
     background: #fff;  
@@ -703,7 +705,6 @@ ul.navbar-nav {
     margin-top: 0rem; 
     padding-top: 3rem;
     padding-bottom: 1rem;
-
 }
 
 .why-heading h2 {
@@ -711,7 +712,7 @@ ul.navbar-nav {
     color: #000;
     text-align: center;
     font-family: Merriweather, sans-serif;
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 600;
     font-style: italic;
     letter-spacing: 1px;
@@ -721,21 +722,22 @@ ul.navbar-nav {
 .why-paragraph p {
     line-height: 2rem; 
     padding-top: 10px;
-    font-family:'Merriweather', serif;
+    font-family: Merriweather, sans-serif;
     font-size: 18px; 
+    font-weight: 400;
     font-style: italic;
+    letter-spacing: 1px;
     text-align: center;
     color: #FFE4E1;
     color: #000;
-  
 }
 
-.why-paragraph h6 {
+.why-paragraph h5 {
     line-height: 2rem;
     padding-top: 10px;
     font-family:'Merriweather', serif;
-    font-size: 22px; 
-    font-weight: 600;
+    font-size: 26px; 
+    font-weight: 700;
     font-style: italic;
     text-align: center;
     color: #FFE4E1;
@@ -808,13 +810,13 @@ ul.navbar-nav {
     background: #232949;
     border-radius: 15px;
     border-top-left-radius: 0;
-    /* padding: 0 35px;  */
-    padding-bottom: 30px; 
+    padding: 0 30px;  
 }
 
 .card-whyInfo .contentWhy ul {
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.25rem;
     margin-top: 15px;
 }
 
@@ -859,10 +861,10 @@ ul.navbar-nav {
     margin: 15px 15px;
     display: block;
     border-radius: 7px;
-    color: #333;
-    font-weight: 600;
+    color: #000;
+    font-weight: 500;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
     font-family:'Merriweather', serif;
 }
 
