@@ -869,3 +869,272 @@ h2.aboutHead {
 }
 
 
+/* ------------------------------Chiropractics How Quote Section  -*/
+
+
+.chiroQuote-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.headerQuote {
+    box-sizing: border-box;
+    font-family: Merriweather, sans-serif;
+}
+
+.chiroQuote_con {
+    /* background: linear-gradient(90deg, rgb(250, 246, 246) 40%, rgb(30, 30, 30) 40%); */
+    background: linear-gradient(90deg, #FFEAE6 40%, #232949 40%);
+    border-radius: 25px;
+}
+
+.headerQuote {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 120px;
+    margin-bottom: 30px;
+}
+
+.headerQuote .quote_title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerQuote .quote_title h2 {
+    color: #FFE4E1;
+    color: #000;
+    color: #fff; 
+    font-family: Merriweather, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding: 40px 0 20px 0; 
+}
+
+.quoteCont_two {
+    padding: 40px;
+    background: #fefefe;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.quoteCont2 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 20px; 
+    margin-right: 250px; 
+}
+
+.quoteCont_two h3 {
+    text-align: center;
+    color:#232949;
+    color: #000;
+    font-family: Merriweather, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.quoteCont_two p {
+    color:#000;
+    font-family: Merriweather, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+/* ------------------------------Treatment Cards Section  */
+
+/* ---------Treatment Card 1  */
+
+/* .container-treat-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}  */
+
+.cont-grid-treat{
+    background-color: #232949;
+    height: 70vh;  
+    display: grid;
+    place-items: center center;
+    grid-gap: 40px;
+    border-radius: 25px;
+}
+
+.grid-container-treat {
+    display: grid;
+    max-width: 100%;
+    grid-gap: 40px;  
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 30px auto 0 auto;
+    border-radius: 20px;
+}    
+  
+.treat-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 8px; 
+    padding-bottom: 5px; 
+    border-radius: 20px; 
+}  
+
+.treat-card {
+    background-color: #1c1b29;
+    background-color: #232949;
+    background-color: #FFEAE6;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+
+.container-treat {
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);  
+}
+
+.card-treat img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}  
+
+.card-treat img {
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 275px;
+    object-fit: cover; 
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1.8);
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 2%;
+    margin-left: 5px; 
+    margin-top: 1px;
+    margin-bottom: 20px; 
+}
+ 
+.container-treat:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;  
+    opacity: .2;
+} 
+
+/* .treatment-card-3>.container-treat:after {
+    background-image: linear-gradient( 135deg, #0100ec, #fb36f4);
+}   */
+
+/* .treatment-card-3>.container-treat:after {
+    background-image: linear-gradient( 135deg, #FFEAE6, #eb82e8);
+}   */
+
+
+/* .treatment-card-2>.container-treat:after {
+    background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+}   */
+
+.treatment-card-1>.container-treat:after {
+    background-image: linear-gradient( 135deg, #ffab1d, #e15c34);
+} 
+
+.treatment-card-2>.container-treat:after {
+    background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+}  
+
+.treatment-card-3>.container-treat:after {
+    background-image: linear-gradient( 135deg, #0100ec, #fb36f4);
+} 
+
+.treatment-card-4>.container-treat:after {
+    background-image: linear-gradient( 135deg, #ffab1d, #e15c34);
+} 
+
+.treatment-card-5>.container-treat:after {
+    background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+}  
+
+.treatment-card-6>.container-treat:after {
+    background-image: linear-gradient( 135deg, #0100ec, #fb36f4);
+} 
+
+.treatment-card-7>.container-treat:after {
+    background-image: linear-gradient( 135deg, #ffab1d, #e15c34);
+} 
+
+.treatment-card-8>.container-treat:after {
+    background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+}  
+
+.treatment-card-9>.container-treat:after {
+    background-image: linear-gradient( 135deg, #0100ec, #fb36f4);
+} 
+
+.button5 {
+    background-color: #1c1b29;
+    background-color: #FFEAE6; 
+    border-radius: 20px,20px 0 0;
+    border: none;
+} 
+
+ .button5 a {
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    margin: 4px 2px; 
+    cursor: pointer;
+}  
+
+.details h3 {
+    color: #fefefe;
+    color: #232949;
+    /* font-family: 'Merriweather', serif;  */
+    font-family: 'Lato', sans-serif; 
+    font-weight: 800;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 10px 0 15px 0;
+}  
+
+.modal-content {
+    /* margin-left: 50%; */
+    margin-top: 20px;
+}
+
+.content-why-treat p {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    text-align: left;
+    line-height: 1.5rem; 
+    font-size: 14px;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 600;
+    color: #232949;
+ }
+
+
