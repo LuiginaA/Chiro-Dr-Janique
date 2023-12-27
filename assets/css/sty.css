@@ -871,15 +871,21 @@ h2.aboutHead {
 
 /* ------------------------------Chiropractics How Quote Section  -*/
 
-
-.chiroQuote-container {
+.contain-condit {
     display: flex;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
+}
+
+.chiroQuote_con {
+    position: relative;
+    width: 100%;
+    padding: 40px 100px; 
+}
+
+.chiroQuote_con .quote_title {
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
-    width: 100%;
-    min-height: 70vh;
 }
 
 .headerQuote {
@@ -888,8 +894,9 @@ h2.aboutHead {
 }
 
 .chiroQuote_con {
-    /* background: linear-gradient(90deg, rgb(250, 246, 246) 40%, rgb(30, 30, 30) 40%); */
     background: linear-gradient(90deg, #FFEAE6 40%, #232949 40%);
+    background: linear-gradient(90deg, #FFEAE6 20%, #232949 60%);
+    background: linear-gradient(90deg, #FFEAE6 30%, #232949 50%);
     border-radius: 25px;
 }
 
@@ -906,21 +913,29 @@ h2.aboutHead {
 
 .headerQuote .quote_title {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .headerQuote .quote_title h2 {
-    color: #FFE4E1;
     color: #000;
-    color: #fff; 
     font-family: Merriweather, sans-serif;
-    font-size: 34px;
+    font-size: 37px;
     font-weight: 600;
     font-style: italic;
-    letter-spacing: 1px;
-    padding: 40px 0 20px 0; 
+    word-spacing: 2.5px;
+    letter-spacing: 2px;
+    padding: 20px 0 20px 0; 
+}
+
+.headerQuote .quote_title h2 span {
+    color: #fff;
+    font-family: Merriweather, sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding: 20px 0 20px 0; 
 }
 
 .quoteCont_two {
@@ -942,10 +957,9 @@ h2.aboutHead {
 .quoteCont_two h3 {
     text-align: center;
     color:#232949;
-    color: #000;
     font-family: Merriweather, sans-serif;
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 600;
     font-style: italic;
     letter-spacing: 1px;
     line-height: 1.5rem;
@@ -953,7 +967,7 @@ h2.aboutHead {
 }
 
 .quoteCont_two p {
-    color:#000;
+    color:#232949;
     font-family: Merriweather, sans-serif;
     font-style: italic;
     font-size: 16px;
@@ -965,37 +979,151 @@ h2.aboutHead {
     padding-bottom: 10px
 }
 
+
+/* -------------- Media Queries----- */
+
+@media (max-width: 991px) {
+    .headerQuote .quote_title {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 300px;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .headerQuote .quote_title h2 {
+        color: #fff; 
+        font-family: Merriweather, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        word-spacing: 2.5px;
+        letter-spacing: 2px;
+        padding: 20px 0 20px 0; 
+    }
+    
+    .headerQuote .quote_title h2 span {
+        color: #fff; 
+        font-family: Merriweather, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 2px;
+        padding: 20px 0 20px 0; 
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .headerQuote .quote_title {
+        display: flex;
+        margin-left: 150px;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .headerQuote .quote_title h2 {
+        color: #fff; 
+        font-family: Merriweather, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        word-spacing: 2.5px;
+        letter-spacing: 2px;
+        padding: 20px 0 20px 0;  
+    }
+    
+    .headerQuote .quote_title h2 span {
+        color: #fff; 
+        font-family: Merriweather, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        letter-spacing: 2px;
+        padding: 20px 0 20px 0; 
+    }
+
+    .headerQuote {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* align-content: flex-end;
+        justify-content: flex-end; */
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .chiroQuote_con {
+        width: 100%;
+    }
+
+    .quoteCont2 {
+        display: flex;
+        flex-direction: column;      
+        margin-top: 20px; 
+        margin-right: 60px;
+        margin-left: -200px;
+        width: 100%;
+    }
+    
+    .quoteCont_two {
+        justify-content: center;
+        align-items: center;
+        margin-left: 75px;
+        width: 160%;
+    }
+
+    .quoteCont_two h3 {
+        margin-top: 20px;
+    }
+
+    .quoteCont_two p {
+        padding: 10px ;
+    }
+
+}
+
 /* ------------------------------Treatment Cards Section  */
 
 /* ---------Treatment Card 1  */
 
-/* .container-treat-heading {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}  */
-
-.cont-grid-treat{
-    background-color: #232949;
-    height: 70vh;  
-    display: grid;
+.cont-grid-treat {
+    /* background-color: #232949;
+    background-color: #fefefe;
+    background-color: #232949; */
+    height: fit-content;
+    width: 100%;
+    /* display: grid; */
     place-items: center center;
-    grid-gap: 40px;
-    border-radius: 25px;
+    /* grid-gap: 40px; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
 }
+
+.cont-grid-treat {
+    background: linear-gradient(90deg, #FFEAE6 40%, #232949 40%);
+    background: linear-gradient(90deg, #FFEAE6 20%, #232949 60%);
+    background: linear-gradient(90deg, #FFEAE6 30%, #232949 50%);
+    border-radius: 25px; 
+}
+
 
 .grid-container-treat {
     display: grid;
     max-width: 100%;
-    grid-gap: 40px;  
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 50px;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 30px auto 0 auto;
     border-radius: 20px;
 }    
   
 .treat-card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding-top: 8px; 
     padding-bottom: 5px; 
     border-radius: 20px; 
@@ -1004,7 +1132,7 @@ h2.aboutHead {
 .treat-card {
     background-color: #1c1b29;
     background-color: #232949;
-    background-color: #FFEAE6;
+    background-color: #FFEAE6; 
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
@@ -1138,3 +1266,48 @@ h2.aboutHead {
  }
 
 
+/* -------------- Media Queries----- */
+
+/* @media (max-width: 991px) */
+
+@media (max-width: 480px) {
+ .grid-container-treat {
+    display: grid;
+    max-width: 100%;
+    grid-gap: 40px;  
+    grid-template-columns: repeat(auto-fit, minmax(1fr 1fr));
+    margin: 30px auto 0 auto;
+    border-radius: 20px;
+}    
+  
+.treat-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr 1fr));
+    padding-top: 8px; 
+    padding-bottom: 5px; 
+    border-radius: 20px; 
+} 
+
+} 
+
+@media (max-width: 480px) {
+ .grid-container-treat {
+    /* display: grid; */
+    max-width: 50%;
+    grid-gap: 0px;  
+    /* grid-template-columns: repeat(auto-fit, minmax(1fr 1fr)); */
+    margin: 30px auto 50px auto;
+    /* grid-template-columns: 1fr; */
+    border-radius: 20px;
+}    
+  
+.treat-card {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(1fr 1fr)); */
+    padding-top: 8px; 
+    /* grid-template-columns: 1fr; */
+    padding-bottom: 5px; 
+    border-radius: 20px; 
+} 
+
+} 
